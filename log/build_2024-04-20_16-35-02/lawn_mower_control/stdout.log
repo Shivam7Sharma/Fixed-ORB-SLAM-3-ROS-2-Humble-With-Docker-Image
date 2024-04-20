@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing lawn_mower_control.egg-info/PKG-INFO
+writing dependency_links to lawn_mower_control.egg-info/dependency_links.txt
+writing entry points to lawn_mower_control.egg-info/entry_points.txt
+writing requirements to lawn_mower_control.egg-info/requires.txt
+writing top-level names to lawn_mower_control.egg-info/top_level.txt
+reading manifest file 'lawn_mower_control.egg-info/SOURCES.txt'
+writing manifest file 'lawn_mower_control.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/shivamss/colcon_ws/install/lawn_mower_control/lib/python3.10/site-packages/lawn-mower-control.egg-link (link to .)
+Installing diff_drive script to /home/shivamss/colcon_ws/install/lawn_mower_control/lib/lawn_mower_control
+Installing manual_control script to /home/shivamss/colcon_ws/install/lawn_mower_control/lib/lawn_mower_control
+Installing mowing_planner script to /home/shivamss/colcon_ws/install/lawn_mower_control/lib/lawn_mower_control
+
+Installed /home/shivamss/colcon_ws/build/lawn_mower_control
+running symlink_data
+symbolically linking /home/shivamss/colcon_ws/build/lawn_mower_control/resource/lawn_mower_control -> /home/shivamss/colcon_ws/install/lawn_mower_control/share/ament_index/resource_index/packages

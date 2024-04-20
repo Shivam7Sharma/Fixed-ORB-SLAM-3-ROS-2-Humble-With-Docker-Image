@@ -1,0 +1,1 @@
+Invoking command in '/home/shivamss/colcon_ws/build/orbslam3': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shivamss/colcon_ws/src/orbslam3_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shivamss/colcon_ws/install/orbslam3

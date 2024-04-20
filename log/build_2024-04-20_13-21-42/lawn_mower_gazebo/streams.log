@@ -1,0 +1,56 @@
+[0.675s] Invoking command in '/home/shivamss/colcon_ws/build/lawn_mower_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shivamss/colcon_ws/install/lawn_mower_control:/opt/ros/humble /usr/bin/cmake /home/shivamss/colcon_ws/src/lawn_mower_gazebo -DCMAKE_INSTALL_PREFIX=/home/shivamss/colcon_ws/install/lawn_mower_gazebo
+[0.701s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.012s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.049s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[1.333s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.341s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.360s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.391s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.432s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.604s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.611s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[10.140s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.609s] -- Found rclpy: 3.3.12 (/opt/ros/humble/share/rclpy/cmake)
+[10.609s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[10.797s] -- Added test 'copyright' to check source files copyright and LICENSE
+[10.802s] -- Added test 'flake8' to check Python code syntax and style conventions
+[10.803s] -- Added test 'lint_cmake' to check CMake code style
+[10.805s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[10.806s] -- Added test 'xmllint' to check XML markup files
+[10.810s] -- Configuring done
+[10.825s] -- Generating done
+[10.829s] -- Build files have been written to: /home/shivamss/colcon_ws/build/lawn_mower_gazebo
+[10.846s] Invoked command in '/home/shivamss/colcon_ws/build/lawn_mower_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shivamss/colcon_ws/install/lawn_mower_control:/opt/ros/humble /usr/bin/cmake /home/shivamss/colcon_ws/src/lawn_mower_gazebo -DCMAKE_INSTALL_PREFIX=/home/shivamss/colcon_ws/install/lawn_mower_gazebo
+[10.849s] Invoking command in '/home/shivamss/colcon_ws/build/lawn_mower_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shivamss/colcon_ws/install/lawn_mower_control:/opt/ros/humble /usr/bin/cmake --build /home/shivamss/colcon_ws/build/lawn_mower_gazebo -- -j20 -l20
+[10.921s] Invoked command in '/home/shivamss/colcon_ws/build/lawn_mower_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shivamss/colcon_ws/install/lawn_mower_control:/opt/ros/humble /usr/bin/cmake --build /home/shivamss/colcon_ws/build/lawn_mower_gazebo -- -j20 -l20
+[10.968s] Invoking command in '/home/shivamss/colcon_ws/build/lawn_mower_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shivamss/colcon_ws/install/lawn_mower_control:/opt/ros/humble /usr/bin/cmake --install /home/shivamss/colcon_ws/build/lawn_mower_gazebo
+[10.988s] -- Install configuration: ""
+[10.989s] -- Execute custom install script
+[10.995s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/lawn_mower_gazebo//launch/lawn_mower_launch.py
+[10.995s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/lawn_mower_gazebo//launch/lawn_mower_launch.py:Zone.Identifier
+[10.995s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/lawn_mower_gazebo//launch/start_world_launch.py
+[10.996s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/lawn_mower_gazebo//launch/start_world_launch.py:Zone.Identifier
+[10.996s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/lawn_mower_gazebo//worlds/baylands.world
+[10.996s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/lawn_mower_gazebo//worlds/baylands.world:Zone.Identifier
+[10.997s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/lawn_mower_gazebo//worlds/box_bot_empty.world
+[10.998s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/lawn_mower_gazebo//worlds/box_bot_empty.world:Zone.Identifier
+[10.998s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/lawn_mower_gazebo//worlds/house.world
+[10.999s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/lawn_mower_gazebo//worlds/house.world:Zone.Identifier
+[10.999s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/lawn_mower_gazebo//worlds/house2.world
+[11.000s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/lawn_mower_gazebo//worlds/house2.world:Zone.Identifier
+[11.001s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/ament_index/resource_index/package_run_dependencies/lawn_mower_gazebo
+[11.001s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/ament_index/resource_index/parent_prefix_path/lawn_mower_gazebo
+[11.003s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/lawn_mower_gazebo/environment/ament_prefix_path.sh
+[11.004s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/lawn_mower_gazebo/environment/ament_prefix_path.dsv
+[11.004s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/lawn_mower_gazebo/environment/path.sh
+[11.004s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/lawn_mower_gazebo/environment/path.dsv
+[11.005s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/lawn_mower_gazebo/local_setup.bash
+[11.007s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/lawn_mower_gazebo/local_setup.sh
+[11.007s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/lawn_mower_gazebo/local_setup.zsh
+[11.007s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/lawn_mower_gazebo/local_setup.dsv
+[11.007s] -- Symlinking: /home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/lawn_mower_gazebo/package.dsv
+[11.028s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/ament_index/resource_index/packages/lawn_mower_gazebo
+[11.028s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/lawn_mower_gazebo/cmake/lawn_mower_gazeboConfig.cmake
+[11.028s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/lawn_mower_gazebo/cmake/lawn_mower_gazeboConfig-version.cmake
+[11.028s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/lawn_mower_gazebo/package.xml
+[11.034s] Invoked command in '/home/shivamss/colcon_ws/build/lawn_mower_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shivamss/colcon_ws/install/lawn_mower_control:/opt/ros/humble /usr/bin/cmake --install /home/shivamss/colcon_ws/build/lawn_mower_gazebo

@@ -1,0 +1,14 @@
+[0.122s] Invoking command in '/home/shivamss/colcon_ws/build/lawn_mower_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shivamss/colcon_ws/src/lawn_mower_descriptions -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shivamss/colcon_ws/install/lawn_mower_description
+[0.188s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.294s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.311s] -- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)
+[0.868s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[0.869s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.920s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.922s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.923s] -- Added test 'lint_cmake' to check CMake code style
+[0.923s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.924s] -- Added test 'xmllint' to check XML markup files
+[0.925s] -- Configuring done
+[0.927s] -- Generating done
+[0.928s] -- Build files have been written to: /home/shivamss/colcon_ws/build/lawn_mower_description

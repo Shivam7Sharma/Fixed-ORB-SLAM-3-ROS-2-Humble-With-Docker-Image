@@ -1,0 +1,319 @@
+[0.181s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.181s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f9b9fe24160>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f9b9fdf3cd0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f9b9fdf3cd0>>)
+[0.341s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.341s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.341s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.341s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.341s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.341s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.341s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/shivamss/colcon_ws'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/lawn_mower_control) by extensions ['ignore', 'ignore_ament_install']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/lawn_mower_control) by extension 'ignore'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/lawn_mower_control) by extension 'ignore_ament_install'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/lawn_mower_control) by extensions ['colcon_pkg']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/lawn_mower_control) by extension 'colcon_pkg'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/lawn_mower_control) by extensions ['colcon_meta']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/lawn_mower_control) by extension 'colcon_meta'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/lawn_mower_control) by extensions ['ros']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/lawn_mower_control) by extension 'ros'
+[0.360s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lawn_mower_control' with type 'ros.ament_python' and name 'lawn_mower_control'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/lawn_mower_descriptions) by extensions ['ignore', 'ignore_ament_install']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/lawn_mower_descriptions) by extension 'ignore'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/lawn_mower_descriptions) by extension 'ignore_ament_install'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/lawn_mower_descriptions) by extensions ['colcon_pkg']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/lawn_mower_descriptions) by extension 'colcon_pkg'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/lawn_mower_descriptions) by extensions ['colcon_meta']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/lawn_mower_descriptions) by extension 'colcon_meta'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/lawn_mower_descriptions) by extensions ['ros']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/lawn_mower_descriptions) by extension 'ros'
+[0.361s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lawn_mower_descriptions' with type 'ros.ament_cmake' and name 'lawn_mower_description'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/lawn_mower_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/lawn_mower_gazebo) by extension 'ignore'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/lawn_mower_gazebo) by extension 'ignore_ament_install'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/lawn_mower_gazebo) by extensions ['colcon_pkg']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/lawn_mower_gazebo) by extension 'colcon_pkg'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/lawn_mower_gazebo) by extensions ['colcon_meta']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/lawn_mower_gazebo) by extension 'colcon_meta'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/lawn_mower_gazebo) by extensions ['ros']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/lawn_mower_gazebo) by extension 'ros'
+[0.361s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lawn_mower_gazebo' with type 'ros.ament_cmake' and name 'lawn_mower_gazebo'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/orbslam3_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/orbslam3_ros2) by extension 'ignore'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/orbslam3_ros2) by extension 'ignore_ament_install'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/orbslam3_ros2) by extensions ['colcon_pkg']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/orbslam3_ros2) by extension 'colcon_pkg'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/orbslam3_ros2) by extensions ['colcon_meta']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/orbslam3_ros2) by extension 'colcon_meta'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/orbslam3_ros2) by extensions ['ros']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/orbslam3_ros2) by extension 'ros'
+[0.363s] DEBUG:colcon.colcon_core.package_identification:Package 'src/orbslam3_ros2' with type 'ros.ament_cmake' and name 'orbslam3'
+[0.363s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.363s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.363s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.363s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.363s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.395s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.395s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.396s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/shivamss/colcon_ws/install
+[0.398s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 338 installed packages in /opt/ros/humble
+[0.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'lawn_mower_control' build argument 'cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'lawn_mower_control' build argument 'cmake_target' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'lawn_mower_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'lawn_mower_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'lawn_mower_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'lawn_mower_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'lawn_mower_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'lawn_mower_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'lawn_mower_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.437s] DEBUG:colcon.colcon_core.verb:Building package 'lawn_mower_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shivamss/colcon_ws/build/lawn_mower_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shivamss/colcon_ws/install/lawn_mower_control', 'merge_install': False, 'path': '/home/shivamss/colcon_ws/src/lawn_mower_control', 'symlink_install': False, 'test_result_base': None}
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'lawn_mower_description' build argument 'cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'lawn_mower_description' build argument 'cmake_target' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'lawn_mower_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'lawn_mower_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'lawn_mower_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'lawn_mower_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'lawn_mower_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'lawn_mower_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'lawn_mower_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.437s] DEBUG:colcon.colcon_core.verb:Building package 'lawn_mower_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shivamss/colcon_ws/build/lawn_mower_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shivamss/colcon_ws/install/lawn_mower_description', 'merge_install': False, 'path': '/home/shivamss/colcon_ws/src/lawn_mower_descriptions', 'symlink_install': False, 'test_result_base': None}
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'lawn_mower_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'lawn_mower_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'lawn_mower_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'lawn_mower_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'lawn_mower_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'lawn_mower_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'lawn_mower_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'lawn_mower_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'lawn_mower_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.438s] DEBUG:colcon.colcon_core.verb:Building package 'lawn_mower_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shivamss/colcon_ws/build/lawn_mower_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shivamss/colcon_ws/install/lawn_mower_gazebo', 'merge_install': False, 'path': '/home/shivamss/colcon_ws/src/lawn_mower_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'orbslam3' build argument 'cmake_args' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'orbslam3' build argument 'cmake_target' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'orbslam3' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'orbslam3' build argument 'cmake_clean_cache' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'orbslam3' build argument 'cmake_clean_first' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'orbslam3' build argument 'cmake_force_configure' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'orbslam3' build argument 'ament_cmake_args' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'orbslam3' build argument 'catkin_cmake_args' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'orbslam3' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.438s] DEBUG:colcon.colcon_core.verb:Building package 'orbslam3' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shivamss/colcon_ws/build/orbslam3', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shivamss/colcon_ws/install/orbslam3', 'merge_install': False, 'path': '/home/shivamss/colcon_ws/src/orbslam3_ros2', 'symlink_install': False, 'test_result_base': None}
+[0.438s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.443s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.443s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/shivamss/colcon_ws/src/lawn_mower_control' with build type 'ament_python'
+[0.443s] Level 1:colcon.colcon_core.shell:create_environment_hook('lawn_mower_control', 'ament_prefix_path')
+[0.445s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.445s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shivamss/colcon_ws/install/lawn_mower_control/share/lawn_mower_control/hook/ament_prefix_path.ps1'
+[0.446s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shivamss/colcon_ws/install/lawn_mower_control/share/lawn_mower_control/hook/ament_prefix_path.dsv'
+[0.447s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shivamss/colcon_ws/install/lawn_mower_control/share/lawn_mower_control/hook/ament_prefix_path.sh'
+[0.447s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.447s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.451s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shivamss/colcon_ws/src/lawn_mower_descriptions' with build type 'ament_cmake'
+[0.451s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shivamss/colcon_ws/src/lawn_mower_descriptions'
+[0.451s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.451s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.455s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shivamss/colcon_ws/src/lawn_mower_gazebo' with build type 'ament_cmake'
+[0.455s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shivamss/colcon_ws/src/lawn_mower_gazebo'
+[0.455s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.455s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.459s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shivamss/colcon_ws/src/orbslam3_ros2' with build type 'ament_cmake'
+[0.459s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shivamss/colcon_ws/src/orbslam3_ros2'
+[0.459s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.459s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.668s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/shivamss/colcon_ws/src/lawn_mower_control'
+[0.669s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.669s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.677s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shivamss/colcon_ws/build/lawn_mower_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shivamss/colcon_ws/install/lawn_mower_control:/opt/ros/humble /usr/bin/cmake --build /home/shivamss/colcon_ws/build/lawn_mower_description -- -j20 -l20
+[0.681s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shivamss/colcon_ws/build/lawn_mower_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shivamss/colcon_ws/install/lawn_mower_control:/opt/ros/humble /usr/bin/cmake --build /home/shivamss/colcon_ws/build/lawn_mower_gazebo -- -j20 -l20
+[0.688s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shivamss/colcon_ws/build/orbslam3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shivamss/colcon_ws/install/lawn_mower_control:/opt/ros/humble /usr/bin/cmake --build /home/shivamss/colcon_ws/build/orbslam3 -- -j20 -l20
+[0.728s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shivamss/colcon_ws/build/lawn_mower_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shivamss/colcon_ws/install/lawn_mower_control:/opt/ros/humble /usr/bin/cmake --build /home/shivamss/colcon_ws/build/lawn_mower_gazebo -- -j20 -l20
+[0.764s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shivamss/colcon_ws/build/lawn_mower_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shivamss/colcon_ws/install/lawn_mower_control:/opt/ros/humble /usr/bin/cmake --install /home/shivamss/colcon_ws/build/lawn_mower_gazebo
+[0.783s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lawn_mower_gazebo)
+[0.784s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shivamss/colcon_ws/build/lawn_mower_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shivamss/colcon_ws/install/lawn_mower_control:/opt/ros/humble /usr/bin/cmake --install /home/shivamss/colcon_ws/build/lawn_mower_gazebo
+[0.786s] Level 1:colcon.colcon_core.environment:checking '/home/shivamss/colcon_ws/install/lawn_mower_gazebo' for CMake module files
+[0.787s] Level 1:colcon.colcon_core.environment:checking '/home/shivamss/colcon_ws/install/lawn_mower_gazebo' for CMake config files
+[0.787s] Level 1:colcon.colcon_core.shell:create_environment_hook('lawn_mower_gazebo', 'cmake_prefix_path')
+[0.787s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/lawn_mower_gazebo/hook/cmake_prefix_path.ps1'
+[0.788s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/lawn_mower_gazebo/hook/cmake_prefix_path.dsv'
+[0.788s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/lawn_mower_gazebo/hook/cmake_prefix_path.sh'
+[0.789s] Level 1:colcon.colcon_core.environment:checking '/home/shivamss/colcon_ws/install/lawn_mower_gazebo/bin'
+[0.790s] Level 1:colcon.colcon_core.environment:checking '/home/shivamss/colcon_ws/install/lawn_mower_gazebo/lib/pkgconfig/lawn_mower_gazebo.pc'
+[0.790s] Level 1:colcon.colcon_core.environment:checking '/home/shivamss/colcon_ws/install/lawn_mower_gazebo/lib/python3.10/site-packages'
+[0.790s] Level 1:colcon.colcon_core.environment:checking '/home/shivamss/colcon_ws/install/lawn_mower_gazebo/bin'
+[0.791s] INFO:colcon.colcon_core.shell:Creating package script '/home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/lawn_mower_gazebo/package.ps1'
+[0.791s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/lawn_mower_gazebo/package.dsv'
+[0.792s] INFO:colcon.colcon_core.shell:Creating package script '/home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/lawn_mower_gazebo/package.sh'
+[0.792s] INFO:colcon.colcon_core.shell:Creating package script '/home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/lawn_mower_gazebo/package.bash'
+[0.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/lawn_mower_gazebo/package.zsh'
+[0.793s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/colcon-core/packages/lawn_mower_gazebo)
+[0.811s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lawn_mower_gazebo)
+[0.811s] Level 1:colcon.colcon_core.environment:checking '/home/shivamss/colcon_ws/install/lawn_mower_gazebo' for CMake module files
+[0.811s] Level 1:colcon.colcon_core.environment:checking '/home/shivamss/colcon_ws/install/lawn_mower_gazebo' for CMake config files
+[0.811s] Level 1:colcon.colcon_core.shell:create_environment_hook('lawn_mower_gazebo', 'cmake_prefix_path')
+[0.812s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/lawn_mower_gazebo/hook/cmake_prefix_path.ps1'
+[0.812s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/lawn_mower_gazebo/hook/cmake_prefix_path.dsv'
+[0.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/lawn_mower_gazebo/hook/cmake_prefix_path.sh'
+[0.813s] Level 1:colcon.colcon_core.environment:checking '/home/shivamss/colcon_ws/install/lawn_mower_gazebo/bin'
+[0.813s] Level 1:colcon.colcon_core.environment:checking '/home/shivamss/colcon_ws/install/lawn_mower_gazebo/lib/pkgconfig/lawn_mower_gazebo.pc'
+[0.813s] Level 1:colcon.colcon_core.environment:checking '/home/shivamss/colcon_ws/install/lawn_mower_gazebo/lib/python3.10/site-packages'
+[0.814s] Level 1:colcon.colcon_core.environment:checking '/home/shivamss/colcon_ws/install/lawn_mower_gazebo/bin'
+[0.814s] INFO:colcon.colcon_core.shell:Creating package script '/home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/lawn_mower_gazebo/package.ps1'
+[0.814s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/lawn_mower_gazebo/package.dsv'
+[0.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/lawn_mower_gazebo/package.sh'
+[0.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/lawn_mower_gazebo/package.bash'
+[0.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/lawn_mower_gazebo/package.zsh'
+[0.816s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/colcon-core/packages/lawn_mower_gazebo)
+[1.036s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shivamss/colcon_ws/src/lawn_mower_control': PYTHONPATH=/home/shivamss/colcon_ws/build/lawn_mower_control/prefix_override:/home/shivamss/colcon_ws/install/lawn_mower_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lawn_mower_control build --build-base /home/shivamss/colcon_ws/build/lawn_mower_control/build install --record /home/shivamss/colcon_ws/build/lawn_mower_control/install.log --single-version-externally-managed install_data
+[1.324s] Level 1:colcon.colcon_core.environment:checking '/home/shivamss/colcon_ws/install/lawn_mower_control' for CMake module files
+[1.324s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shivamss/colcon_ws/src/lawn_mower_control' returned '0': PYTHONPATH=/home/shivamss/colcon_ws/build/lawn_mower_control/prefix_override:/home/shivamss/colcon_ws/install/lawn_mower_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lawn_mower_control build --build-base /home/shivamss/colcon_ws/build/lawn_mower_control/build install --record /home/shivamss/colcon_ws/build/lawn_mower_control/install.log --single-version-externally-managed install_data
+[1.325s] Level 1:colcon.colcon_core.environment:checking '/home/shivamss/colcon_ws/install/lawn_mower_control' for CMake config files
+[1.326s] Level 1:colcon.colcon_core.environment:checking '/home/shivamss/colcon_ws/install/lawn_mower_control/lib'
+[1.326s] Level 1:colcon.colcon_core.environment:checking '/home/shivamss/colcon_ws/install/lawn_mower_control/bin'
+[1.326s] Level 1:colcon.colcon_core.environment:checking '/home/shivamss/colcon_ws/install/lawn_mower_control/lib/pkgconfig/lawn_mower_control.pc'
+[1.327s] Level 1:colcon.colcon_core.environment:checking '/home/shivamss/colcon_ws/install/lawn_mower_control/lib/python3.10/site-packages'
+[1.327s] Level 1:colcon.colcon_core.shell:create_environment_hook('lawn_mower_control', 'pythonpath')
+[1.327s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shivamss/colcon_ws/install/lawn_mower_control/share/lawn_mower_control/hook/pythonpath.ps1'
+[1.328s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shivamss/colcon_ws/install/lawn_mower_control/share/lawn_mower_control/hook/pythonpath.dsv'
+[1.328s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shivamss/colcon_ws/install/lawn_mower_control/share/lawn_mower_control/hook/pythonpath.sh'
+[1.328s] Level 1:colcon.colcon_core.environment:checking '/home/shivamss/colcon_ws/install/lawn_mower_control/bin'
+[1.329s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lawn_mower_control)
+[1.329s] INFO:colcon.colcon_core.shell:Creating package script '/home/shivamss/colcon_ws/install/lawn_mower_control/share/lawn_mower_control/package.ps1'
+[1.329s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shivamss/colcon_ws/install/lawn_mower_control/share/lawn_mower_control/package.dsv'
+[1.330s] INFO:colcon.colcon_core.shell:Creating package script '/home/shivamss/colcon_ws/install/lawn_mower_control/share/lawn_mower_control/package.sh'
+[1.330s] INFO:colcon.colcon_core.shell:Creating package script '/home/shivamss/colcon_ws/install/lawn_mower_control/share/lawn_mower_control/package.bash'
+[1.330s] INFO:colcon.colcon_core.shell:Creating package script '/home/shivamss/colcon_ws/install/lawn_mower_control/share/lawn_mower_control/package.zsh'
+[1.331s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shivamss/colcon_ws/install/lawn_mower_control/share/colcon-core/packages/lawn_mower_control)
+[1.927s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shivamss/colcon_ws/build/lawn_mower_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shivamss/colcon_ws/install/lawn_mower_control:/opt/ros/humble /usr/bin/cmake --build /home/shivamss/colcon_ws/build/lawn_mower_description -- -j20 -l20
+[1.971s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shivamss/colcon_ws/build/lawn_mower_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shivamss/colcon_ws/install/lawn_mower_control:/opt/ros/humble /usr/bin/cmake --install /home/shivamss/colcon_ws/build/lawn_mower_description
+[2.002s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lawn_mower_description)
+[2.003s] Level 1:colcon.colcon_core.environment:checking '/home/shivamss/colcon_ws/install/lawn_mower_description' for CMake module files
+[2.003s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shivamss/colcon_ws/build/lawn_mower_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shivamss/colcon_ws/install/lawn_mower_control:/opt/ros/humble /usr/bin/cmake --install /home/shivamss/colcon_ws/build/lawn_mower_description
+[2.004s] Level 1:colcon.colcon_core.environment:checking '/home/shivamss/colcon_ws/install/lawn_mower_description' for CMake config files
+[2.004s] Level 1:colcon.colcon_core.shell:create_environment_hook('lawn_mower_description', 'cmake_prefix_path')
+[2.004s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/hook/cmake_prefix_path.ps1'
+[2.004s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/hook/cmake_prefix_path.dsv'
+[2.005s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/hook/cmake_prefix_path.sh'
+[2.005s] Level 1:colcon.colcon_core.environment:checking '/home/shivamss/colcon_ws/install/lawn_mower_description/lib'
+[2.005s] Level 1:colcon.colcon_core.environment:checking '/home/shivamss/colcon_ws/install/lawn_mower_description/bin'
+[2.005s] Level 1:colcon.colcon_core.environment:checking '/home/shivamss/colcon_ws/install/lawn_mower_description/lib/pkgconfig/lawn_mower_description.pc'
+[2.005s] Level 1:colcon.colcon_core.environment:checking '/home/shivamss/colcon_ws/install/lawn_mower_description/lib/python3.10/site-packages'
+[2.005s] Level 1:colcon.colcon_core.environment:checking '/home/shivamss/colcon_ws/install/lawn_mower_description/bin'
+[2.005s] INFO:colcon.colcon_core.shell:Creating package script '/home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/package.ps1'
+[2.006s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/package.dsv'
+[2.006s] INFO:colcon.colcon_core.shell:Creating package script '/home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/package.sh'
+[2.006s] INFO:colcon.colcon_core.shell:Creating package script '/home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/package.bash'
+[2.006s] INFO:colcon.colcon_core.shell:Creating package script '/home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/package.zsh'
+[2.007s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shivamss/colcon_ws/install/lawn_mower_description/share/colcon-core/packages/lawn_mower_description)
+[2.026s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lawn_mower_description)
+[2.027s] Level 1:colcon.colcon_core.environment:checking '/home/shivamss/colcon_ws/install/lawn_mower_description' for CMake module files
+[2.027s] Level 1:colcon.colcon_core.environment:checking '/home/shivamss/colcon_ws/install/lawn_mower_description' for CMake config files
+[2.027s] Level 1:colcon.colcon_core.shell:create_environment_hook('lawn_mower_description', 'cmake_prefix_path')
+[2.028s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/hook/cmake_prefix_path.ps1'
+[2.029s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/hook/cmake_prefix_path.dsv'
+[2.029s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/hook/cmake_prefix_path.sh'
+[2.030s] Level 1:colcon.colcon_core.environment:checking '/home/shivamss/colcon_ws/install/lawn_mower_description/lib'
+[2.030s] Level 1:colcon.colcon_core.environment:checking '/home/shivamss/colcon_ws/install/lawn_mower_description/bin'
+[2.030s] Level 1:colcon.colcon_core.environment:checking '/home/shivamss/colcon_ws/install/lawn_mower_description/lib/pkgconfig/lawn_mower_description.pc'
+[2.030s] Level 1:colcon.colcon_core.environment:checking '/home/shivamss/colcon_ws/install/lawn_mower_description/lib/python3.10/site-packages'
+[2.031s] Level 1:colcon.colcon_core.environment:checking '/home/shivamss/colcon_ws/install/lawn_mower_description/bin'
+[2.031s] INFO:colcon.colcon_core.shell:Creating package script '/home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/package.ps1'
+[2.031s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/package.dsv'
+[2.032s] INFO:colcon.colcon_core.shell:Creating package script '/home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/package.sh'
+[2.032s] INFO:colcon.colcon_core.shell:Creating package script '/home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/package.bash'
+[2.032s] INFO:colcon.colcon_core.shell:Creating package script '/home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/package.zsh'
+[2.033s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shivamss/colcon_ws/install/lawn_mower_description/share/colcon-core/packages/lawn_mower_description)
+[26.961s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shivamss/colcon_ws/build/orbslam3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shivamss/colcon_ws/install/lawn_mower_control:/opt/ros/humble /usr/bin/cmake --build /home/shivamss/colcon_ws/build/orbslam3 -- -j20 -l20
+[27.005s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shivamss/colcon_ws/build/orbslam3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shivamss/colcon_ws/install/lawn_mower_control:/opt/ros/humble /usr/bin/cmake --install /home/shivamss/colcon_ws/build/orbslam3
+[27.026s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(orbslam3)
+[27.027s] Level 1:colcon.colcon_core.environment:checking '/home/shivamss/colcon_ws/install/orbslam3' for CMake module files
+[27.027s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shivamss/colcon_ws/build/orbslam3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shivamss/colcon_ws/install/lawn_mower_control:/opt/ros/humble /usr/bin/cmake --install /home/shivamss/colcon_ws/build/orbslam3
+[27.028s] Level 1:colcon.colcon_core.environment:checking '/home/shivamss/colcon_ws/install/orbslam3' for CMake config files
+[27.028s] Level 1:colcon.colcon_core.shell:create_environment_hook('orbslam3', 'cmake_prefix_path')
+[27.028s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shivamss/colcon_ws/install/orbslam3/share/orbslam3/hook/cmake_prefix_path.ps1'
+[27.029s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shivamss/colcon_ws/install/orbslam3/share/orbslam3/hook/cmake_prefix_path.dsv'
+[27.029s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shivamss/colcon_ws/install/orbslam3/share/orbslam3/hook/cmake_prefix_path.sh'
+[27.030s] Level 1:colcon.colcon_core.environment:checking '/home/shivamss/colcon_ws/install/orbslam3/lib'
+[27.030s] Level 1:colcon.colcon_core.environment:checking '/home/shivamss/colcon_ws/install/orbslam3/bin'
+[27.030s] Level 1:colcon.colcon_core.environment:checking '/home/shivamss/colcon_ws/install/orbslam3/lib/pkgconfig/orbslam3.pc'
+[27.030s] Level 1:colcon.colcon_core.environment:checking '/home/shivamss/colcon_ws/install/orbslam3/lib/python3.10/site-packages'
+[27.030s] Level 1:colcon.colcon_core.environment:checking '/home/shivamss/colcon_ws/install/orbslam3/bin'
+[27.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/shivamss/colcon_ws/install/orbslam3/share/orbslam3/package.ps1'
+[27.031s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shivamss/colcon_ws/install/orbslam3/share/orbslam3/package.dsv'
+[27.031s] INFO:colcon.colcon_core.shell:Creating package script '/home/shivamss/colcon_ws/install/orbslam3/share/orbslam3/package.sh'
+[27.031s] INFO:colcon.colcon_core.shell:Creating package script '/home/shivamss/colcon_ws/install/orbslam3/share/orbslam3/package.bash'
+[27.032s] INFO:colcon.colcon_core.shell:Creating package script '/home/shivamss/colcon_ws/install/orbslam3/share/orbslam3/package.zsh'
+[27.032s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shivamss/colcon_ws/install/orbslam3/share/colcon-core/packages/orbslam3)
+[27.076s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(orbslam3)
+[27.077s] Level 1:colcon.colcon_core.environment:checking '/home/shivamss/colcon_ws/install/orbslam3' for CMake module files
+[27.077s] Level 1:colcon.colcon_core.environment:checking '/home/shivamss/colcon_ws/install/orbslam3' for CMake config files
+[27.077s] Level 1:colcon.colcon_core.shell:create_environment_hook('orbslam3', 'cmake_prefix_path')
+[27.078s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shivamss/colcon_ws/install/orbslam3/share/orbslam3/hook/cmake_prefix_path.ps1'
+[27.078s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shivamss/colcon_ws/install/orbslam3/share/orbslam3/hook/cmake_prefix_path.dsv'
+[27.078s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shivamss/colcon_ws/install/orbslam3/share/orbslam3/hook/cmake_prefix_path.sh'
+[27.079s] Level 1:colcon.colcon_core.environment:checking '/home/shivamss/colcon_ws/install/orbslam3/lib'
+[27.079s] Level 1:colcon.colcon_core.environment:checking '/home/shivamss/colcon_ws/install/orbslam3/bin'
+[27.079s] Level 1:colcon.colcon_core.environment:checking '/home/shivamss/colcon_ws/install/orbslam3/lib/pkgconfig/orbslam3.pc'
+[27.079s] Level 1:colcon.colcon_core.environment:checking '/home/shivamss/colcon_ws/install/orbslam3/lib/python3.10/site-packages'
+[27.079s] Level 1:colcon.colcon_core.environment:checking '/home/shivamss/colcon_ws/install/orbslam3/bin'
+[27.080s] INFO:colcon.colcon_core.shell:Creating package script '/home/shivamss/colcon_ws/install/orbslam3/share/orbslam3/package.ps1'
+[27.083s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shivamss/colcon_ws/install/orbslam3/share/orbslam3/package.dsv'
+[27.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/shivamss/colcon_ws/install/orbslam3/share/orbslam3/package.sh'
+[27.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/shivamss/colcon_ws/install/orbslam3/share/orbslam3/package.bash'
+[27.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/shivamss/colcon_ws/install/orbslam3/share/orbslam3/package.zsh'
+[27.085s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shivamss/colcon_ws/install/orbslam3/share/colcon-core/packages/orbslam3)
+[27.085s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[27.085s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[27.085s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[27.086s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[27.128s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[27.128s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[27.128s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[27.129s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[27.130s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[27.130s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[27.131s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shivamss/colcon_ws/install/local_setup.ps1'
+[27.133s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/shivamss/colcon_ws/install/_local_setup_util_ps1.py'
+[27.134s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shivamss/colcon_ws/install/setup.ps1'
+[27.135s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shivamss/colcon_ws/install/local_setup.sh'
+[27.136s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/shivamss/colcon_ws/install/_local_setup_util_sh.py'
+[27.137s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shivamss/colcon_ws/install/setup.sh'
+[27.138s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shivamss/colcon_ws/install/local_setup.bash'
+[27.139s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shivamss/colcon_ws/install/setup.bash'
+[27.140s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shivamss/colcon_ws/install/local_setup.zsh'
+[27.141s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shivamss/colcon_ws/install/setup.zsh'

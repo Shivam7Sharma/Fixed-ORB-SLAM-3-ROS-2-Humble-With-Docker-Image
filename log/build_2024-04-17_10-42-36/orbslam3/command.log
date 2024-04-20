@@ -1,0 +1,2 @@
+Invoking command in '/home/shivamss/colcon_ws/build/orbslam3': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shivamss/colcon_ws/build/orbslam3 -- -j20 -l20
+Invoked command in '/home/shivamss/colcon_ws/build/orbslam3' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shivamss/colcon_ws/build/orbslam3 -- -j20 -l20

@@ -1,0 +1,150 @@
+[0.208s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--packages-select', 'orbslam3']
+[0.208s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['orbslam3'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fa010c6bbe0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fa010c6b790>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fa010c6b790>>)
+[0.275s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.275s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.275s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.275s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.275s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.275s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.275s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/shivamss/colcon_ws'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/lawn_mower_control) by extensions ['ignore', 'ignore_ament_install']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/lawn_mower_control) by extension 'ignore'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/lawn_mower_control) by extension 'ignore_ament_install'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/lawn_mower_control) by extensions ['colcon_pkg']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/lawn_mower_control) by extension 'colcon_pkg'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/lawn_mower_control) by extensions ['colcon_meta']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/lawn_mower_control) by extension 'colcon_meta'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/lawn_mower_control) by extensions ['ros']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/lawn_mower_control) by extension 'ros'
+[0.283s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lawn_mower_control' with type 'ros.ament_python' and name 'lawn_mower_control'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/lawn_mower_descriptions) by extensions ['ignore', 'ignore_ament_install']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/lawn_mower_descriptions) by extension 'ignore'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/lawn_mower_descriptions) by extension 'ignore_ament_install'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/lawn_mower_descriptions) by extensions ['colcon_pkg']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/lawn_mower_descriptions) by extension 'colcon_pkg'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/lawn_mower_descriptions) by extensions ['colcon_meta']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/lawn_mower_descriptions) by extension 'colcon_meta'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/lawn_mower_descriptions) by extensions ['ros']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/lawn_mower_descriptions) by extension 'ros'
+[0.284s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lawn_mower_descriptions' with type 'ros.ament_cmake' and name 'lawn_mower_description'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/lawn_mower_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/lawn_mower_gazebo) by extension 'ignore'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/lawn_mower_gazebo) by extension 'ignore_ament_install'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/lawn_mower_gazebo) by extensions ['colcon_pkg']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/lawn_mower_gazebo) by extension 'colcon_pkg'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/lawn_mower_gazebo) by extensions ['colcon_meta']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/lawn_mower_gazebo) by extension 'colcon_meta'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/lawn_mower_gazebo) by extensions ['ros']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/lawn_mower_gazebo) by extension 'ros'
+[0.284s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lawn_mower_gazebo' with type 'ros.ament_cmake' and name 'lawn_mower_gazebo'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/orbslam3_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/orbslam3_ros2) by extension 'ignore'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/orbslam3_ros2) by extension 'ignore_ament_install'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/orbslam3_ros2) by extensions ['colcon_pkg']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/orbslam3_ros2) by extension 'colcon_pkg'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/orbslam3_ros2) by extensions ['colcon_meta']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/orbslam3_ros2) by extension 'colcon_meta'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/orbslam3_ros2) by extensions ['ros']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/orbslam3_ros2) by extension 'ros'
+[0.285s] DEBUG:colcon.colcon_core.package_identification:Package 'src/orbslam3_ros2' with type 'ros.ament_cmake' and name 'orbslam3'
+[0.285s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.285s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.285s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.285s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.286s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.301s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'lawn_mower_control' in 'src/lawn_mower_control'
+[0.301s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'lawn_mower_description' in 'src/lawn_mower_descriptions'
+[0.301s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'lawn_mower_gazebo' in 'src/lawn_mower_gazebo'
+[0.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.302s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[0.303s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'orbslam3' build argument 'cmake_args' from command line to 'None'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'orbslam3' build argument 'cmake_target' from command line to 'None'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'orbslam3' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'orbslam3' build argument 'cmake_clean_cache' from command line to 'False'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'orbslam3' build argument 'cmake_clean_first' from command line to 'False'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'orbslam3' build argument 'cmake_force_configure' from command line to 'False'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'orbslam3' build argument 'ament_cmake_args' from command line to 'None'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'orbslam3' build argument 'catkin_cmake_args' from command line to 'None'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'orbslam3' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.318s] DEBUG:colcon.colcon_core.verb:Building package 'orbslam3' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shivamss/colcon_ws/build/orbslam3', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shivamss/colcon_ws/install/orbslam3', 'merge_install': False, 'path': '/home/shivamss/colcon_ws/src/orbslam3_ros2', 'symlink_install': True, 'test_result_base': None}
+[0.318s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.318s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.319s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shivamss/colcon_ws/src/orbslam3_ros2' with build type 'ament_cmake'
+[0.319s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shivamss/colcon_ws/src/orbslam3_ros2'
+[0.320s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.320s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.320s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.325s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shivamss/colcon_ws/build/orbslam3': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shivamss/colcon_ws/build/orbslam3 -- -j20 -l20
+[74.180s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shivamss/colcon_ws/build/orbslam3' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shivamss/colcon_ws/build/orbslam3 -- -j20 -l20
+[74.274s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(orbslam3)
+[74.334s] Level 1:colcon.colcon_core.environment:checking '/home/shivamss/colcon_ws/install/orbslam3' for CMake module files
+[74.345s] Level 1:colcon.colcon_core.environment:checking '/home/shivamss/colcon_ws/install/orbslam3' for CMake config files
+[74.416s] Level 1:colcon.colcon_core.environment:checking '/home/shivamss/colcon_ws/install/orbslam3/bin'
+[74.416s] Level 1:colcon.colcon_core.environment:checking '/home/shivamss/colcon_ws/install/orbslam3/lib/pkgconfig/orbslam3.pc'
+[74.444s] Level 1:colcon.colcon_core.environment:checking '/home/shivamss/colcon_ws/install/orbslam3/lib/python3.10/site-packages'
+[74.444s] Level 1:colcon.colcon_core.environment:checking '/home/shivamss/colcon_ws/install/orbslam3/bin'
+[74.449s] INFO:colcon.colcon_core.shell:Creating package script '/home/shivamss/colcon_ws/install/orbslam3/share/orbslam3/package.ps1'
+[74.593s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shivamss/colcon_ws/install/orbslam3/share/orbslam3/package.dsv'
+[74.597s] INFO:colcon.colcon_core.shell:Creating package script '/home/shivamss/colcon_ws/install/orbslam3/share/orbslam3/package.sh'
+[74.606s] INFO:colcon.colcon_core.shell:Creating package script '/home/shivamss/colcon_ws/install/orbslam3/share/orbslam3/package.bash'
+[74.622s] INFO:colcon.colcon_core.shell:Creating package script '/home/shivamss/colcon_ws/install/orbslam3/share/orbslam3/package.zsh'
+[74.633s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shivamss/colcon_ws/install/orbslam3/share/colcon-core/packages/orbslam3)
+[74.677s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[74.685s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[74.687s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[74.691s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[74.967s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[74.967s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[74.967s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[74.967s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[75.023s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[75.023s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[75.030s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shivamss/colcon_ws/install/local_setup.ps1'
+[75.034s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/shivamss/colcon_ws/install/_local_setup_util_ps1.py'
+[75.037s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shivamss/colcon_ws/install/setup.ps1'
+[75.043s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shivamss/colcon_ws/install/local_setup.sh'
+[75.046s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/shivamss/colcon_ws/install/_local_setup_util_sh.py'
+[75.047s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shivamss/colcon_ws/install/setup.sh'
+[75.051s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shivamss/colcon_ws/install/local_setup.bash'
+[75.053s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shivamss/colcon_ws/install/setup.bash'
+[75.055s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shivamss/colcon_ws/install/local_setup.zsh'
+[75.055s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shivamss/colcon_ws/install/setup.zsh'

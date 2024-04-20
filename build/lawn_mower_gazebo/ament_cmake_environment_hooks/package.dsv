@@ -1,0 +1,4 @@
+source;share/lawn_mower_gazebo/local_setup.bash
+source;share/lawn_mower_gazebo/local_setup.dsv
+source;share/lawn_mower_gazebo/local_setup.sh
+source;share/lawn_mower_gazebo/local_setup.zsh

@@ -1,0 +1,78 @@
+[0.032s] Invoking command in '/home/shivamss/colcon_ws/build/lawn_mower_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shivamss/colcon_ws/install/lawn_mower_control:/opt/ros/humble /usr/bin/cmake --build /home/shivamss/colcon_ws/build/lawn_mower_description -- -j20 -l20
+[0.089s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.378s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.396s] -- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)
+[2.802s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[2.802s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.972s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.981s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.982s] -- Added test 'lint_cmake' to check CMake code style
+[2.983s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.987s] -- Added test 'xmllint' to check XML markup files
+[2.990s] -- Configuring done
+[2.998s] -- Generating done
+[2.999s] -- Build files have been written to: /home/shivamss/colcon_ws/build/lawn_mower_description
+[3.045s] Invoked command in '/home/shivamss/colcon_ws/build/lawn_mower_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shivamss/colcon_ws/install/lawn_mower_control:/opt/ros/humble /usr/bin/cmake --build /home/shivamss/colcon_ws/build/lawn_mower_description -- -j20 -l20
+[3.145s] Invoking command in '/home/shivamss/colcon_ws/build/lawn_mower_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shivamss/colcon_ws/install/lawn_mower_control:/opt/ros/humble /usr/bin/cmake --install /home/shivamss/colcon_ws/build/lawn_mower_description
+[3.157s] -- Install configuration: ""
+[3.158s] -- Execute custom install script
+[3.159s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/launch/gazebo_setup.launch.py
+[3.159s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/launch/gazebo_setup.launch.py:Zone.Identifier
+[3.160s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/launch/spawn_lawn_mower.py
+[3.160s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/launch/spawn_lawn_mower.py:Zone.Identifier
+[3.160s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/launch/spawn_robot_launch_v4.launch.py
+[3.161s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/launch/spawn_robot_launch_v4.launch.py:Zone.Identifier
+[3.162s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/robot/caster_wheels.xacro
+[3.162s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/robot/caster_wheels.xacro:Zone.Identifier
+[3.163s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/robot/lawn_mower.gazebo
+[3.163s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/robot/lawn_mower.gazebo:Zone.Identifier
+[3.163s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/robot/lawn_mower.xacro
+[3.164s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/robot/lawn_mower.xacro:Zone.Identifier
+[3.164s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/robot/lawn_mower_body.xacro
+[3.165s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/robot/lawn_mower_body.xacro:Zone.Identifier
+[3.165s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/robot/macros.xacro
+[3.165s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/robot/macros.xacro:Zone.Identifier
+[3.166s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/robot/materials.xacro
+[3.166s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/robot/materials.xacro:Zone.Identifier
+[3.166s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/robot/oakd_lite.xacro
+[3.166s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/robot/oakd_lite.xacro:Zone.Identifier
+[3.167s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/robot/oakd_lite2.xacro
+[3.167s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/robot/oakd_lite2.xacro:Zone.Identifier
+[3.167s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/robot/properties.xacro
+[3.168s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/robot/properties.xacro:Zone.Identifier
+[3.168s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/robot/wheels.xacro
+[3.168s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/robot/wheels.xacro:Zone.Identifier
+[3.168s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/config/steering_controller_position.yaml
+[3.169s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/config/steering_controller_position.yaml:Zone.Identifier
+[3.169s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/config/steering_controller_velocity.yaml
+[3.170s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/config/steering_controller_velocity.yaml:Zone.Identifier
+[3.170s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/meshes/box_car.dae
+[3.170s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/meshes/box_car.dae:Zone.Identifier
+[3.171s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/meshes/pixel_car.mtl
+[3.171s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/meshes/pixel_car.mtl:Zone.Identifier
+[3.172s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/meshes/pixel_car.obj
+[3.172s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/meshes/pixel_car.obj:Zone.Identifier
+[3.172s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/meshes/redcar_tex.png
+[3.172s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/meshes/redcar_tex.png:Zone.Identifier
+[3.172s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/meshes/wheel.dae
+[3.172s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/meshes/wheel.dae:Zone.Identifier
+[3.173s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/meshes/wheel.png
+[3.173s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/meshes/wheel.png:Zone.Identifier
+[3.173s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/lib/lawn_mower_description/spawn_lawn_mower.py
+[3.174s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/lib/lawn_mower_description/wheel_steer.py
+[3.174s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/ament_index/resource_index/package_run_dependencies/lawn_mower_description
+[3.174s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/ament_index/resource_index/parent_prefix_path/lawn_mower_description
+[3.174s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/environment/ament_prefix_path.sh
+[3.175s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/environment/ament_prefix_path.dsv
+[3.176s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/environment/path.sh
+[3.176s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/environment/path.dsv
+[3.176s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/local_setup.bash
+[3.176s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/local_setup.sh
+[3.176s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/local_setup.zsh
+[3.176s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/local_setup.dsv
+[3.176s] -- Symlinking: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/package.dsv
+[3.194s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/ament_index/resource_index/packages/lawn_mower_description
+[3.194s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/cmake/lawn_mower_descriptionConfig.cmake
+[3.194s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/cmake/lawn_mower_descriptionConfig-version.cmake
+[3.194s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/package.xml
+[3.199s] Invoked command in '/home/shivamss/colcon_ws/build/lawn_mower_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shivamss/colcon_ws/install/lawn_mower_control:/opt/ros/humble /usr/bin/cmake --install /home/shivamss/colcon_ws/build/lawn_mower_description

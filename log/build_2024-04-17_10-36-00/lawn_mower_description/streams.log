@@ -1,0 +1,36 @@
+[0.115s] Invoking command in '/home/shivamss/colcon_ws/build/lawn_mower_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shivamss/colcon_ws/src/lawn_mower_descriptions -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shivamss/colcon_ws/install/lawn_mower_description
+[0.182s] -- The C compiler identification is GNU 11.4.0
+[0.282s] -- The CXX compiler identification is GNU 11.4.0
+[0.365s] -- Detecting C compiler ABI info
+[0.413s] -- Detecting C compiler ABI info - done
+[0.415s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.415s] -- Detecting C compile features
+[0.416s] -- Detecting C compile features - done
+[0.417s] -- Detecting CXX compiler ABI info
+[0.479s] -- Detecting CXX compiler ABI info - done
+[0.483s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.483s] -- Detecting CXX compile features
+[0.483s] -- Detecting CXX compile features - done
+[0.484s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.563s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.595s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.606s] -- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)
+[1.270s] [31mCMake Error at CMakeLists.txt:22 (find_package):
+[1.270s]   By not providing "Findxacro.cmake" in CMAKE_MODULE_PATH this project has
+[1.270s]   asked CMake to find a package configuration file provided by "xacro", but
+[1.270s]   CMake did not find one.
+[1.270s] 
+[1.270s]   Could not find a package configuration file provided by "xacro" with any of
+[1.270s]   the following names:
+[1.270s] 
+[1.270s]     xacroConfig.cmake
+[1.270s]     xacro-config.cmake
+[1.270s] 
+[1.270s]   Add the installation prefix of "xacro" to CMAKE_PREFIX_PATH or set
+[1.270s]   "xacro_DIR" to a directory containing one of the above files.  If "xacro"
+[1.270s]   provides a separate development package or SDK, be sure it has been
+[1.270s]   installed.
+[1.270s] 
+[1.270s] [0m
+[1.270s] -- Configuring incomplete, errors occurred!
+[1.270s] See also "/home/shivamss/colcon_ws/build/lawn_mower_description/CMakeFiles/CMakeOutput.log".

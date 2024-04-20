@@ -1,0 +1,51 @@
+[1.647s] Invoking command in '/home/shivamss/colcon_ws/build/lawn_mower_control': PYTHONPATH=/home/shivamss/colcon_ws/build/lawn_mower_control/prefix_override:/home/shivamss/colcon_ws/install/lawn_mower_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/shivamss/colcon_ws/build/lawn_mower_control/build
+[2.315s] running develop
+[2.318s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.318s]   warnings.warn(
+[2.692s] Removing /home/shivamss/colcon_ws/install/lawn_mower_control/lib/python3.10/site-packages/lawn-mower-control.egg-link (link to .)
+[2.764s] Invoked command in '/home/shivamss/colcon_ws/build/lawn_mower_control' returned '0': PYTHONPATH=/home/shivamss/colcon_ws/build/lawn_mower_control/prefix_override:/home/shivamss/colcon_ws/install/lawn_mower_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/shivamss/colcon_ws/build/lawn_mower_control/build
+[2.769s] Invoking command in '/home/shivamss/colcon_ws/src/lawn_mower_control': PYTHONPATH=/home/shivamss/colcon_ws/build/lawn_mower_control/prefix_override:/home/shivamss/colcon_ws/install/lawn_mower_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lawn_mower_control build --build-base /home/shivamss/colcon_ws/build/lawn_mower_control/build install --record /home/shivamss/colcon_ws/build/lawn_mower_control/install.log --single-version-externally-managed install_data --force
+[3.362s] running egg_info
+[3.365s] writing ../../build/lawn_mower_control/lawn_mower_control.egg-info/PKG-INFO
+[3.366s] writing dependency_links to ../../build/lawn_mower_control/lawn_mower_control.egg-info/dependency_links.txt
+[3.368s] writing entry points to ../../build/lawn_mower_control/lawn_mower_control.egg-info/entry_points.txt
+[3.368s] writing requirements to ../../build/lawn_mower_control/lawn_mower_control.egg-info/requires.txt
+[3.368s] writing top-level names to ../../build/lawn_mower_control/lawn_mower_control.egg-info/top_level.txt
+[3.377s] reading manifest file '../../build/lawn_mower_control/lawn_mower_control.egg-info/SOURCES.txt'
+[3.379s] writing manifest file '../../build/lawn_mower_control/lawn_mower_control.egg-info/SOURCES.txt'
+[3.380s] running build
+[3.380s] running build_py
+[3.380s] creating /home/shivamss/colcon_ws/build/lawn_mower_control/build
+[3.381s] creating /home/shivamss/colcon_ws/build/lawn_mower_control/build/lib
+[3.381s] creating /home/shivamss/colcon_ws/build/lawn_mower_control/build/lib/lawn_mower_control
+[3.381s] copying lawn_mower_control/mowing_planner.py -> /home/shivamss/colcon_ws/build/lawn_mower_control/build/lib/lawn_mower_control
+[3.382s] copying lawn_mower_control/diff_drive.py -> /home/shivamss/colcon_ws/build/lawn_mower_control/build/lib/lawn_mower_control
+[3.383s] copying lawn_mower_control/manual_control.py -> /home/shivamss/colcon_ws/build/lawn_mower_control/build/lib/lawn_mower_control
+[3.383s] copying lawn_mower_control/__init__.py -> /home/shivamss/colcon_ws/build/lawn_mower_control/build/lib/lawn_mower_control
+[3.383s] copying lawn_mower_control/motor_driver.py -> /home/shivamss/colcon_ws/build/lawn_mower_control/build/lib/lawn_mower_control
+[3.384s] running install
+[3.384s] running install_lib
+[3.385s] creating /home/shivamss/colcon_ws/install/lawn_mower_control/lib/python3.10/site-packages/lawn_mower_control
+[3.385s] copying /home/shivamss/colcon_ws/build/lawn_mower_control/build/lib/lawn_mower_control/mowing_planner.py -> /home/shivamss/colcon_ws/install/lawn_mower_control/lib/python3.10/site-packages/lawn_mower_control
+[3.385s] copying /home/shivamss/colcon_ws/build/lawn_mower_control/build/lib/lawn_mower_control/diff_drive.py -> /home/shivamss/colcon_ws/install/lawn_mower_control/lib/python3.10/site-packages/lawn_mower_control
+[3.386s] copying /home/shivamss/colcon_ws/build/lawn_mower_control/build/lib/lawn_mower_control/manual_control.py -> /home/shivamss/colcon_ws/install/lawn_mower_control/lib/python3.10/site-packages/lawn_mower_control
+[3.386s] copying /home/shivamss/colcon_ws/build/lawn_mower_control/build/lib/lawn_mower_control/__init__.py -> /home/shivamss/colcon_ws/install/lawn_mower_control/lib/python3.10/site-packages/lawn_mower_control
+[3.386s] copying /home/shivamss/colcon_ws/build/lawn_mower_control/build/lib/lawn_mower_control/motor_driver.py -> /home/shivamss/colcon_ws/install/lawn_mower_control/lib/python3.10/site-packages/lawn_mower_control
+[3.388s] byte-compiling /home/shivamss/colcon_ws/install/lawn_mower_control/lib/python3.10/site-packages/lawn_mower_control/mowing_planner.py to mowing_planner.cpython-310.pyc
+[3.396s] byte-compiling /home/shivamss/colcon_ws/install/lawn_mower_control/lib/python3.10/site-packages/lawn_mower_control/diff_drive.py to diff_drive.cpython-310.pyc
+[3.397s] byte-compiling /home/shivamss/colcon_ws/install/lawn_mower_control/lib/python3.10/site-packages/lawn_mower_control/manual_control.py to manual_control.cpython-310.pyc
+[3.399s] byte-compiling /home/shivamss/colcon_ws/install/lawn_mower_control/lib/python3.10/site-packages/lawn_mower_control/__init__.py to __init__.cpython-310.pyc
+[3.399s] byte-compiling /home/shivamss/colcon_ws/install/lawn_mower_control/lib/python3.10/site-packages/lawn_mower_control/motor_driver.py to motor_driver.cpython-310.pyc
+[3.401s] running install_data
+[3.401s] copying resource/lawn_mower_control -> /home/shivamss/colcon_ws/install/lawn_mower_control/share/ament_index/resource_index/packages
+[3.401s] copying package.xml -> /home/shivamss/colcon_ws/install/lawn_mower_control/share/lawn_mower_control
+[3.402s] copying launch/lawn_mower.launch.py -> /home/shivamss/colcon_ws/install/lawn_mower_control/share/lawn_mower_control
+[3.403s] copying launch/base.launch.py -> /home/shivamss/colcon_ws/install/lawn_mower_control/share/lawn_mower_control
+[3.403s] running install_egg_info
+[3.406s] Copying ../../build/lawn_mower_control/lawn_mower_control.egg-info to /home/shivamss/colcon_ws/install/lawn_mower_control/lib/python3.10/site-packages/lawn_mower_control-0.0.0-py3.10.egg-info
+[3.409s] running install_scripts
+[3.466s] Installing diff_drive script to /home/shivamss/colcon_ws/install/lawn_mower_control/lib/lawn_mower_control
+[3.467s] Installing manual_control script to /home/shivamss/colcon_ws/install/lawn_mower_control/lib/lawn_mower_control
+[3.467s] Installing mowing_planner script to /home/shivamss/colcon_ws/install/lawn_mower_control/lib/lawn_mower_control
+[3.468s] writing list of installed files to '/home/shivamss/colcon_ws/build/lawn_mower_control/install.log'
+[3.542s] Invoked command in '/home/shivamss/colcon_ws/src/lawn_mower_control' returned '0': PYTHONPATH=/home/shivamss/colcon_ws/build/lawn_mower_control/prefix_override:/home/shivamss/colcon_ws/install/lawn_mower_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lawn_mower_control build --build-base /home/shivamss/colcon_ws/build/lawn_mower_control/build install --record /home/shivamss/colcon_ws/build/lawn_mower_control/install.log --single-version-externally-managed install_data --force

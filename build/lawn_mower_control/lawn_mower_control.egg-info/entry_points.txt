@@ -1,0 +1,5 @@
+[console_scripts]
+diff_drive = lawn_mower_control.diff_drive:main
+manual_control = lawn_mower_control.manual_control:main
+mowing_planner = lawn_mower_control.mowing_planner:main
+

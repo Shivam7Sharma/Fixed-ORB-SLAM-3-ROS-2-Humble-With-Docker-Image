@@ -1,0 +1,65 @@
+gmake: Warning: File 'Makefile' has modification time 14154 s in the future
+gmake[1]: Warning: File 'CMakeFiles/Makefile2' has modification time 14154 s in the future
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake: warning:  Clock skew detected.  Your build may be incomplete.
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description//launch/gazebo_setup.launch.py
+-- Symlinking: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description//launch/gazebo_setup.launch.py:Zone.Identifier
+-- Symlinking: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description//launch/spawn_lawn_mower.py
+-- Symlinking: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description//launch/spawn_lawn_mower.py:Zone.Identifier
+-- Symlinking: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description//launch/spawn_robot_launch_v4.launch.py
+-- Symlinking: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description//launch/spawn_robot_launch_v4.launch.py:Zone.Identifier
+-- Symlinking: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description//robot/caster_wheels.xacro
+-- Symlinking: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description//robot/caster_wheels.xacro:Zone.Identifier
+-- Symlinking: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description//robot/lawn_mower.gazebo
+-- Symlinking: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description//robot/lawn_mower.gazebo:Zone.Identifier
+-- Symlinking: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description//robot/lawn_mower.xacro
+-- Symlinking: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description//robot/lawn_mower.xacro:Zone.Identifier
+-- Symlinking: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description//robot/lawn_mower_body.xacro
+-- Symlinking: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description//robot/lawn_mower_body.xacro:Zone.Identifier
+-- Symlinking: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description//robot/macros.xacro
+-- Symlinking: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description//robot/macros.xacro:Zone.Identifier
+-- Symlinking: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description//robot/materials.xacro
+-- Symlinking: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description//robot/materials.xacro:Zone.Identifier
+-- Symlinking: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description//robot/oakd_lite.xacro
+-- Symlinking: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description//robot/oakd_lite.xacro:Zone.Identifier
+-- Symlinking: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description//robot/oakd_lite2.xacro
+-- Symlinking: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description//robot/oakd_lite2.xacro:Zone.Identifier
+-- Symlinking: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description//robot/properties.xacro
+-- Symlinking: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description//robot/properties.xacro:Zone.Identifier
+-- Symlinking: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description//robot/wheels.xacro
+-- Symlinking: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description//robot/wheels.xacro:Zone.Identifier
+-- Symlinking: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description//config/steering_controller_position.yaml
+-- Symlinking: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description//config/steering_controller_position.yaml:Zone.Identifier
+-- Symlinking: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description//config/steering_controller_velocity.yaml
+-- Symlinking: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description//config/steering_controller_velocity.yaml:Zone.Identifier
+-- Symlinking: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description//meshes/box_car.dae
+-- Symlinking: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description//meshes/box_car.dae:Zone.Identifier
+-- Symlinking: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description//meshes/pixel_car.mtl
+-- Symlinking: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description//meshes/pixel_car.mtl:Zone.Identifier
+-- Symlinking: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description//meshes/pixel_car.obj
+-- Symlinking: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description//meshes/pixel_car.obj:Zone.Identifier
+-- Symlinking: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description//meshes/redcar_tex.png
+-- Symlinking: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description//meshes/redcar_tex.png:Zone.Identifier
+-- Symlinking: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description//meshes/wheel.dae
+-- Symlinking: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description//meshes/wheel.dae:Zone.Identifier
+-- Symlinking: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description//meshes/wheel.png
+-- Symlinking: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description//meshes/wheel.png:Zone.Identifier
+-- Symlinking: /home/shivamss/colcon_ws/install/lawn_mower_description/lib/lawn_mower_description/spawn_lawn_mower.py
+-- Symlinking: /home/shivamss/colcon_ws/install/lawn_mower_description/lib/lawn_mower_description/wheel_steer.py
+-- Symlinking: /home/shivamss/colcon_ws/install/lawn_mower_description/share/ament_index/resource_index/package_run_dependencies/lawn_mower_description
+-- Symlinking: /home/shivamss/colcon_ws/install/lawn_mower_description/share/ament_index/resource_index/parent_prefix_path/lawn_mower_description
+-- Symlinking: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/environment/ament_prefix_path.sh
+-- Symlinking: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/environment/ament_prefix_path.dsv
+-- Symlinking: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/environment/path.sh
+-- Symlinking: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/environment/path.dsv
+-- Symlinking: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/local_setup.bash
+-- Symlinking: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/local_setup.sh
+-- Symlinking: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/local_setup.zsh
+-- Symlinking: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/local_setup.dsv
+-- Symlinking: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/package.dsv
+-- Symlinking: /home/shivamss/colcon_ws/install/lawn_mower_description/share/ament_index/resource_index/packages/lawn_mower_description
+-- Symlinking: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/cmake/lawn_mower_descriptionConfig.cmake
+-- Symlinking: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/cmake/lawn_mower_descriptionConfig-version.cmake
+-- Symlinking: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/package.xml

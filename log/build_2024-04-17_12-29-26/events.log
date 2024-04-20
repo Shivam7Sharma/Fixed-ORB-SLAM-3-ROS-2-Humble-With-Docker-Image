@@ -1,0 +1,11 @@
+[0.000000] (-) TimerEvent: {}
+[0.000179] (-) JobUnselected: {'identifier': 'lawn_mower_description'}
+[0.000192] (-) JobUnselected: {'identifier': 'lawn_mower_gazebo'}
+[0.000199] (-) JobUnselected: {'identifier': 'orbslam3'}
+[0.000207] (lawn_mower_control) JobQueued: {'identifier': 'lawn_mower_control', 'dependencies': OrderedDict()}
+[0.001187] (lawn_mower_control) JobStarted: {'identifier': 'lawn_mower_control'}
+[0.099997] (-) TimerEvent: {}
+[0.200387] (-) TimerEvent: {}
+[0.253540] (lawn_mower_control) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 102, in build\n    return await extension.build(additional_hooks=additional_hooks)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 139, in build\n    temp_symlinks = self._symlinks_in_build(args, setup_py_data)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 345, in _symlinks_in_build\n    os.makedirs(os.path.dirname(dst), exist_ok=True)\n  File "/usr/lib/python3.10/os.py", line 225, in makedirs\n    mkdir(name, mode)\nFileExistsError: [Errno 17] File exists: \'/home/shivamss/colcon_ws/build/lawn_mower_control/resource/lawn_mower_control\'\n'}
+[0.253882] (lawn_mower_control) JobEnded: {'identifier': 'lawn_mower_control', 'rc': 1}
+[0.264567] (-) EventReactorShutdown: {}

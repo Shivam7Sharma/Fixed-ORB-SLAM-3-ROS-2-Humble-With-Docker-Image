@@ -1,0 +1,195 @@
+[0.000000] (-) TimerEvent: {}
+[0.000372] (lawn_mower_control) JobQueued: {'identifier': 'lawn_mower_control', 'dependencies': OrderedDict()}
+[0.000398] (lawn_mower_description) JobQueued: {'identifier': 'lawn_mower_description', 'dependencies': OrderedDict()}
+[0.000407] (lawn_mower_gazebo) JobQueued: {'identifier': 'lawn_mower_gazebo', 'dependencies': OrderedDict()}
+[0.000785] (orbslam3) JobQueued: {'identifier': 'orbslam3', 'dependencies': OrderedDict()}
+[0.000815] (lawn_mower_control) JobStarted: {'identifier': 'lawn_mower_control'}
+[0.003931] (lawn_mower_description) JobStarted: {'identifier': 'lawn_mower_description'}
+[0.007495] (lawn_mower_gazebo) JobStarted: {'identifier': 'lawn_mower_gazebo'}
+[0.009159] (orbslam3) JobStarted: {'identifier': 'orbslam3'}
+[0.099493] (-) TimerEvent: {}
+[0.117887] (lawn_mower_description) JobProgress: {'identifier': 'lawn_mower_description', 'progress': 'cmake'}
+[0.117934] (lawn_mower_description) Command: {'cmd': ['/usr/bin/cmake', '/home/shivamss/colcon_ws/src/lawn_mower_descriptions', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/shivamss/colcon_ws/install/lawn_mower_description'], 'cwd': '/home/shivamss/colcon_ws/build/lawn_mower_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'shivamss'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/shivamss'), ('OLDPWD', '/home/shivamss'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shivamss'), ('NAME', 'SSLaptop'), ('WSL_INTEROP', '/run/WSL/501_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.1.5.0_x64__8wekyb3d8bbwe:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/shiva/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/shiva/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/shivamss/colcon_ws/build/lawn_mower_description'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.122572] (lawn_mower_gazebo) JobProgress: {'identifier': 'lawn_mower_gazebo', 'progress': 'cmake'}
+[0.122601] (lawn_mower_gazebo) Command: {'cmd': ['/usr/bin/cmake', '/home/shivamss/colcon_ws/src/lawn_mower_gazebo', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/shivamss/colcon_ws/install/lawn_mower_gazebo'], 'cwd': '/home/shivamss/colcon_ws/build/lawn_mower_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'shivamss'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/shivamss'), ('OLDPWD', '/home/shivamss'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shivamss'), ('NAME', 'SSLaptop'), ('WSL_INTEROP', '/run/WSL/501_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.1.5.0_x64__8wekyb3d8bbwe:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/shiva/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/shiva/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/shivamss/colcon_ws/build/lawn_mower_gazebo'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.124981] (orbslam3) JobProgress: {'identifier': 'orbslam3', 'progress': 'cmake'}
+[0.125010] (orbslam3) Command: {'cmd': ['/usr/bin/cmake', '/home/shivamss/colcon_ws/src/orbslam3_ros2', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/shivamss/colcon_ws/install/orbslam3'], 'cwd': '/home/shivamss/colcon_ws/build/orbslam3', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'shivamss'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/shivamss'), ('OLDPWD', '/home/shivamss'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shivamss'), ('NAME', 'SSLaptop'), ('WSL_INTEROP', '/run/WSL/501_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.1.5.0_x64__8wekyb3d8bbwe:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/shiva/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/shiva/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/shivamss/colcon_ws/build/orbslam3'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.186344] (lawn_mower_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.188382] (lawn_mower_gazebo) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.193368] (orbslam3) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199591] (-) TimerEvent: {}
+[0.285421] (lawn_mower_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.299727] (-) TimerEvent: {}
+[0.302044] (lawn_mower_gazebo) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.306070] (lawn_mower_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/shivamss/colcon_ws/build/lawn_mower_control/build', '--no-deps', 'symlink_data'], 'cwd': '/home/shivamss/colcon_ws/build/lawn_mower_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'shivamss', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/shivamss', 'OLDPWD': '/home/shivamss', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'shivamss', 'NAME': 'SSLaptop', 'WSL_INTEROP': '/run/WSL/501_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.1.5.0_x64__8wekyb3d8bbwe:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/shiva/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/shiva/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/shivamss/colcon_ws/build/lawn_mower_control', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/shivamss/colcon_ws/build/lawn_mower_control/prefix_override:/home/shivamss/colcon_ws/install/lawn_mower_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': ''}, 'shell': False}
+[0.307627] (orbslam3) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.368548] (lawn_mower_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.370970] (orbslam3) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.375073] (lawn_mower_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400013] (-) TimerEvent: {}
+[0.416275] (orbslam3) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.416425] (lawn_mower_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.418662] (lawn_mower_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.418801] (orbslam3) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.418934] (lawn_mower_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.419544] (orbslam3) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.419769] (lawn_mower_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.419868] (orbslam3) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.420528] (lawn_mower_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.420757] (orbslam3) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.422525] (lawn_mower_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.426176] (lawn_mower_gazebo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.426248] (lawn_mower_gazebo) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.426277] (lawn_mower_gazebo) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.427524] (lawn_mower_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.438428] (lawn_mower_control) StdoutLine: {'line': b'running develop\n'}
+[0.438835] (lawn_mower_control) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[0.438914] (lawn_mower_control) StderrLine: {'line': b'  warnings.warn(\n'}
+[0.482731] (lawn_mower_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.482870] (orbslam3) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.486473] (lawn_mower_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.486701] (orbslam3) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.486797] (lawn_mower_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.486828] (orbslam3) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.486899] (lawn_mower_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.487059] (orbslam3) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.488060] (lawn_mower_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.492690] (orbslam3) StdoutLine: {'line': b'-- Found OpenCV: /usr/local (found suitable version "4.2.0", minimum required is "4") \n'}
+[0.495907] (lawn_mower_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.500103] (-) TimerEvent: {}
+[0.500281] (lawn_mower_gazebo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.500455] (lawn_mower_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.500699] (lawn_mower_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.501677] (lawn_mower_gazebo) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.502546] (lawn_mower_control) StdoutLine: {'line': b'running egg_info\n'}
+[0.502672] (lawn_mower_control) StdoutLine: {'line': b'creating lawn_mower_control.egg-info\n'}
+[0.502910] (lawn_mower_control) StdoutLine: {'line': b'writing lawn_mower_control.egg-info/PKG-INFO\n'}
+[0.503151] (lawn_mower_control) StdoutLine: {'line': b'writing dependency_links to lawn_mower_control.egg-info/dependency_links.txt\n'}
+[0.503262] (lawn_mower_control) StdoutLine: {'line': b'writing entry points to lawn_mower_control.egg-info/entry_points.txt\n'}
+[0.503378] (lawn_mower_control) StdoutLine: {'line': b'writing requirements to lawn_mower_control.egg-info/requires.txt\n'}
+[0.503429] (lawn_mower_control) StdoutLine: {'line': b'writing top-level names to lawn_mower_control.egg-info/top_level.txt\n'}
+[0.504994] (lawn_mower_control) StdoutLine: {'line': b"writing manifest file 'lawn_mower_control.egg-info/SOURCES.txt'\n"}
+[0.505616] (lawn_mower_control) StderrLine: {'line': b"error: package directory 'lawn_mower_control' does not exist\n"}
+[0.519980] (lawn_mower_control) CommandEnded: {'returncode': 1}
+[0.520191] (lawn_mower_control) JobEnded: {'identifier': 'lawn_mower_control', 'rc': 1}
+[0.567077] (lawn_mower_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.577705] (lawn_mower_gazebo) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.599010] (lawn_mower_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.600206] (-) TimerEvent: {}
+[0.609964] (lawn_mower_description) StdoutLine: {'line': b'-- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)\n'}
+[0.611073] (lawn_mower_gazebo) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.621950] (lawn_mower_gazebo) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.646595] (orbslam3) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindOpenGL.cmake:315 (message):\n'}
+[0.646706] (orbslam3) StderrLine: {'line': b'  Policy CMP0072 is not set: FindOpenGL prefers GLVND by default when\n'}
+[0.646737] (orbslam3) StderrLine: {'line': b'  available.  Run "cmake --help-policy CMP0072" for policy details.  Use the\n'}
+[0.646761] (orbslam3) StderrLine: {'line': b'  cmake_policy command to set the policy and suppress this warning.\n'}
+[0.646783] (orbslam3) StderrLine: {'line': b'\n'}
+[0.646806] (orbslam3) StderrLine: {'line': b'  FindOpenGL found both a legacy GL library:\n'}
+[0.646829] (orbslam3) StderrLine: {'line': b'\n'}
+[0.646850] (orbslam3) StderrLine: {'line': b'    OPENGL_gl_LIBRARY: /usr/lib/x86_64-linux-gnu/libGL.so\n'}
+[0.646872] (orbslam3) StderrLine: {'line': b'\n'}
+[0.646892] (orbslam3) StderrLine: {'line': b'  and GLVND libraries for OpenGL and GLX:\n'}
+[0.646913] (orbslam3) StderrLine: {'line': b'\n'}
+[0.646971] (orbslam3) StderrLine: {'line': b'    OPENGL_opengl_LIBRARY: /usr/lib/x86_64-linux-gnu/libOpenGL.so\n'}
+[0.647000] (orbslam3) StderrLine: {'line': b'    OPENGL_glx_LIBRARY: /usr/lib/x86_64-linux-gnu/libGLX.so\n'}
+[0.647023] (orbslam3) StderrLine: {'line': b'\n'}
+[0.647045] (orbslam3) StderrLine: {'line': b'  OpenGL_GL_PREFERENCE has not been set to "GLVND" or "LEGACY", so for\n'}
+[0.647107] (orbslam3) StderrLine: {'line': b'  compatibility with CMake 3.10 and below the legacy GL library will be used.\n'}
+[0.647236] (orbslam3) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.647271] (orbslam3) StderrLine: {'line': b'  CMakeLists.txt:25 (find_package)\n'}
+[0.647299] (orbslam3) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.647323] (orbslam3) StderrLine: {'line': b'\x1b[0m\n'}
+[0.647345] (orbslam3) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   \n'}
+[0.652985] (orbslam3) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.672361] (lawn_mower_gazebo) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.674320] (lawn_mower_gazebo) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.678152] (lawn_mower_gazebo) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.686563] (lawn_mower_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.695688] (lawn_mower_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.700285] (-) TimerEvent: {}
+[0.727915] (orbslam3) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.730412] (lawn_mower_gazebo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.731731] (lawn_mower_gazebo) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.761911] (orbslam3) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.774274] (orbslam3) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.800266] (orbslam3) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.800355] (-) TimerEvent: {}
+[0.802587] (orbslam3) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.806916] (orbslam3) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.814737] (orbslam3) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.824489] (orbslam3) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.864067] (orbslam3) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.865310] (orbslam3) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.900460] (-) TimerEvent: {}
+[1.000702] (-) TimerEvent: {}
+[1.064586] (lawn_mower_gazebo) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.100782] (-) TimerEvent: {}
+[1.201004] (-) TimerEvent: {}
+[1.211619] (orbslam3) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.273398] (lawn_mower_description) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:22 (find_package):\n'}
+[1.273545] (lawn_mower_description) StderrLine: {'line': b'  By not providing "Findxacro.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[1.273609] (lawn_mower_description) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "xacro", but\n'}
+[1.273720] (lawn_mower_description) StderrLine: {'line': b'  CMake did not find one.\n'}
+[1.273746] (lawn_mower_description) StderrLine: {'line': b'\n'}
+[1.273769] (lawn_mower_description) StderrLine: {'line': b'  Could not find a package configuration file provided by "xacro" with any of\n'}
+[1.273802] (lawn_mower_description) StderrLine: {'line': b'  the following names:\n'}
+[1.273837] (lawn_mower_description) StderrLine: {'line': b'\n'}
+[1.273861] (lawn_mower_description) StderrLine: {'line': b'    xacroConfig.cmake\n'}
+[1.273884] (lawn_mower_description) StderrLine: {'line': b'    xacro-config.cmake\n'}
+[1.273906] (lawn_mower_description) StderrLine: {'line': b'\n'}
+[1.273928] (lawn_mower_description) StderrLine: {'line': b'  Add the installation prefix of "xacro" to CMAKE_PREFIX_PATH or set\n'}
+[1.273950] (lawn_mower_description) StderrLine: {'line': b'  "xacro_DIR" to a directory containing one of the above files.  If "xacro"\n'}
+[1.273971] (lawn_mower_description) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[1.273993] (lawn_mower_description) StderrLine: {'line': b'  installed.\n'}
+[1.274014] (lawn_mower_description) StderrLine: {'line': b'\n'}
+[1.274037] (lawn_mower_description) StderrLine: {'line': b'\x1b[0m\n'}
+[1.274059] (lawn_mower_description) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.274087] (lawn_mower_description) StdoutLine: {'line': b'See also "/home/shivamss/colcon_ws/build/lawn_mower_description/CMakeFiles/CMakeOutput.log".\n'}
+[1.277237] (lawn_mower_description) JobEnded: {'identifier': 'lawn_mower_description', 'rc': 'SIGINT'}
+[1.301086] (-) TimerEvent: {}
+[1.401731] (-) TimerEvent: {}
+[1.433235] (lawn_mower_gazebo) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.501827] (-) TimerEvent: {}
+[1.567100] (orbslam3) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.601911] (-) TimerEvent: {}
+[1.702131] (-) TimerEvent: {}
+[1.802341] (-) TimerEvent: {}
+[1.902570] (-) TimerEvent: {}
+[2.002813] (-) TimerEvent: {}
+[2.029620] (lawn_mower_gazebo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.033755] (lawn_mower_gazebo) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.080196] (lawn_mower_gazebo) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.080375] (lawn_mower_gazebo) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.102943] (-) TimerEvent: {}
+[2.126765] (lawn_mower_gazebo) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.127450] (lawn_mower_gazebo) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.156300] (orbslam3) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.161267] (orbslam3) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.203084] (-) TimerEvent: {}
+[2.205584] (lawn_mower_gazebo) StdoutLine: {'line': b'-- Found rclpy: 3.3.12 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[2.206127] (lawn_mower_gazebo) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.209043] (orbslam3) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.209118] (orbslam3) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.246158] (lawn_mower_gazebo) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.247279] (lawn_mower_gazebo) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.247677] (lawn_mower_gazebo) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.248022] (lawn_mower_gazebo) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.248659] (lawn_mower_gazebo) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.249423] (lawn_mower_gazebo) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.252985] (lawn_mower_gazebo) StdoutLine: {'line': b'-- Generating done\n'}
+[2.253046] (lawn_mower_gazebo) StdoutLine: {'line': b'-- Build files have been written to: /home/shivamss/colcon_ws/build/lawn_mower_gazebo\n'}
+[2.257082] (lawn_mower_gazebo) JobEnded: {'identifier': 'lawn_mower_gazebo', 'rc': 'SIGINT'}
+[2.259248] (orbslam3) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.260590] (orbslam3) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.303171] (-) TimerEvent: {}
+[2.341017] (orbslam3) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.403311] (-) TimerEvent: {}
+[2.416473] (orbslam3) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[2.422565] (orbslam3) StdoutLine: {'line': b'-- Found message_filters: 4.3.3 (/opt/ros/humble/share/message_filters/cmake)\n'}
+[2.480179] (orbslam3) StdoutLine: {'line': b'-- Found ORB_SLAM3: /home/shivamss/Dev/ORB_SLAM3/lib/libORB_SLAM3.so  \n'}
+[2.503518] (-) TimerEvent: {}
+[2.517618] (orbslam3) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.549316] (orbslam3) StdoutLine: {'line': b'-- Generating done\n'}
+[2.549457] (orbslam3) StdoutLine: {'line': b'-- Build files have been written to: /home/shivamss/colcon_ws/build/orbslam3\n'}
+[2.553874] (orbslam3) JobEnded: {'identifier': 'orbslam3', 'rc': 'SIGINT'}
+[2.554550] (-) EventReactorShutdown: {}

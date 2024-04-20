@@ -1,0 +1,3 @@
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+error: [Errno 17] File exists: '/home/shivamss/colcon_ws/build/lawn_mower_control/resource/lawn_mower_control' -> '/home/shivamss/colcon_ws/install/lawn_mower_control/share/ament_index/resource_index/packages/lawn_mower_control'

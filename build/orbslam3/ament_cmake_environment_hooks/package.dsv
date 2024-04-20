@@ -1,0 +1,4 @@
+source;share/orbslam3/local_setup.bash
+source;share/orbslam3/local_setup.dsv
+source;share/orbslam3/local_setup.sh
+source;share/orbslam3/local_setup.zsh

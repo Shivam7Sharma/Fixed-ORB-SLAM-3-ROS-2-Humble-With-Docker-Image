@@ -1,0 +1,33 @@
+[35m[1mConsolidate compiler generated dependencies of target rgbd[0m
+[35m[1mConsolidate compiler generated dependencies of target stereo[0m
+[35m[1mConsolidate compiler generated dependencies of target stereo-inertial[0m
+[35m[1mConsolidate compiler generated dependencies of target mono[0m
+[  8%] [32mBuilding CXX object CMakeFiles/rgbd.dir/src/rgbd/rgbd-slam-node.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/stereo-inertial.dir/src/stereo-inertial/stereo-inertial-node.cpp.o[0m
+[ 41%] Built target mono
+[ 66%] Built target stereo
+[ 75%] [32m[1mLinking CXX executable rgbd[0m
+[ 83%] [32m[1mLinking CXX executable stereo-inertial[0m
+[ 91%] Built target rgbd
+[100%] Built target stereo-inertial
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/shivamss/colcon_ws/install/orbslam3/lib/orbslam3/mono
+-- Symlinking: /home/shivamss/colcon_ws/install/orbslam3/lib/orbslam3/rgbd
+-- Symlinking: /home/shivamss/colcon_ws/install/orbslam3/lib/orbslam3/stereo
+-- Symlinking: /home/shivamss/colcon_ws/install/orbslam3/lib/orbslam3/stereo-inertial
+-- Symlinking: /home/shivamss/colcon_ws/install/orbslam3/share/ament_index/resource_index/package_run_dependencies/orbslam3
+-- Symlinking: /home/shivamss/colcon_ws/install/orbslam3/share/ament_index/resource_index/parent_prefix_path/orbslam3
+-- Symlinking: /home/shivamss/colcon_ws/install/orbslam3/share/orbslam3/environment/ament_prefix_path.sh
+-- Symlinking: /home/shivamss/colcon_ws/install/orbslam3/share/orbslam3/environment/ament_prefix_path.dsv
+-- Symlinking: /home/shivamss/colcon_ws/install/orbslam3/share/orbslam3/environment/path.sh
+-- Symlinking: /home/shivamss/colcon_ws/install/orbslam3/share/orbslam3/environment/path.dsv
+-- Symlinking: /home/shivamss/colcon_ws/install/orbslam3/share/orbslam3/local_setup.bash
+-- Symlinking: /home/shivamss/colcon_ws/install/orbslam3/share/orbslam3/local_setup.sh
+-- Symlinking: /home/shivamss/colcon_ws/install/orbslam3/share/orbslam3/local_setup.zsh
+-- Symlinking: /home/shivamss/colcon_ws/install/orbslam3/share/orbslam3/local_setup.dsv
+-- Symlinking: /home/shivamss/colcon_ws/install/orbslam3/share/orbslam3/package.dsv
+-- Symlinking: /home/shivamss/colcon_ws/install/orbslam3/share/ament_index/resource_index/packages/orbslam3
+-- Symlinking: /home/shivamss/colcon_ws/install/orbslam3/share/orbslam3/cmake/orbslam3Config.cmake
+-- Symlinking: /home/shivamss/colcon_ws/install/orbslam3/share/orbslam3/cmake/orbslam3Config-version.cmake
+-- Symlinking: /home/shivamss/colcon_ws/install/orbslam3/share/orbslam3/package.xml

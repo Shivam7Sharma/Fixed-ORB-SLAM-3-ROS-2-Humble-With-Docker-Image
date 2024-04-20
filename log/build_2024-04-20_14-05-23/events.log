@@ -1,0 +1,1055 @@
+[0.000000] (-) TimerEvent: {}
+[0.000477] (lawn_mower_control) JobQueued: {'identifier': 'lawn_mower_control', 'dependencies': OrderedDict()}
+[0.000667] (lawn_mower_description) JobQueued: {'identifier': 'lawn_mower_description', 'dependencies': OrderedDict()}
+[0.000712] (lawn_mower_gazebo) JobQueued: {'identifier': 'lawn_mower_gazebo', 'dependencies': OrderedDict()}
+[0.000737] (orbslam3) JobQueued: {'identifier': 'orbslam3', 'dependencies': OrderedDict()}
+[0.000760] (lawn_mower_control) JobStarted: {'identifier': 'lawn_mower_control'}
+[0.000908] (lawn_mower_description) JobStarted: {'identifier': 'lawn_mower_description'}
+[0.006166] (lawn_mower_gazebo) JobStarted: {'identifier': 'lawn_mower_gazebo'}
+[0.012919] (orbslam3) JobStarted: {'identifier': 'orbslam3'}
+[0.088655] (-) TimerEvent: {}
+[0.189088] (-) TimerEvent: {}
+[0.260717] (lawn_mower_description) JobProgress: {'identifier': 'lawn_mower_description', 'progress': 'cmake'}
+[0.262072] (lawn_mower_description) JobProgress: {'identifier': 'lawn_mower_description', 'progress': 'build'}
+[0.262125] (lawn_mower_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shivamss/colcon_ws/build/lawn_mower_description', '--', '-j20', '-l20'], 'cwd': '/home/shivamss/colcon_ws/build/lawn_mower_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'shivamss'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}'), ('HOME', '/home/shivamss'), ('OLDPWD', '/home/shivamss'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/shivamss/colcon_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shivamss'), ('NAME', 'SSLaptop'), ('WSL_INTEROP', '/run/WSL/100901_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/shiva/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/shiva/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', '3b9495e3-6c6c-4537-8467-226d50819ccd'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/shivamss/colcon_ws/install/orbslam3:/home/shivamss/colcon_ws/install/lawn_mower_gazebo:/home/shivamss/colcon_ws/install/lawn_mower_description:/home/shivamss/colcon_ws/install/lawn_mower_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/shivamss/colcon_ws/build/lawn_mower_description'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/shivamss/colcon_ws/install/lawn_mower_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/shivamss/colcon_ws/install/orbslam3:/home/shivamss/colcon_ws/install/lawn_mower_gazebo:/home/shivamss/colcon_ws/install/lawn_mower_description:/home/shivamss/colcon_ws/install/lawn_mower_control:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.267415] (lawn_mower_gazebo) JobProgress: {'identifier': 'lawn_mower_gazebo', 'progress': 'cmake'}
+[0.267466] (lawn_mower_gazebo) JobProgress: {'identifier': 'lawn_mower_gazebo', 'progress': 'build'}
+[0.267492] (lawn_mower_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shivamss/colcon_ws/build/lawn_mower_gazebo', '--', '-j20', '-l20'], 'cwd': '/home/shivamss/colcon_ws/build/lawn_mower_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'shivamss'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}'), ('HOME', '/home/shivamss'), ('OLDPWD', '/home/shivamss'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/shivamss/colcon_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shivamss'), ('NAME', 'SSLaptop'), ('WSL_INTEROP', '/run/WSL/100901_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/shiva/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/shiva/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', '3b9495e3-6c6c-4537-8467-226d50819ccd'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/shivamss/colcon_ws/install/orbslam3:/home/shivamss/colcon_ws/install/lawn_mower_gazebo:/home/shivamss/colcon_ws/install/lawn_mower_description:/home/shivamss/colcon_ws/install/lawn_mower_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/shivamss/colcon_ws/build/lawn_mower_gazebo'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/shivamss/colcon_ws/install/lawn_mower_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/shivamss/colcon_ws/install/orbslam3:/home/shivamss/colcon_ws/install/lawn_mower_gazebo:/home/shivamss/colcon_ws/install/lawn_mower_description:/home/shivamss/colcon_ws/install/lawn_mower_control:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.280375] (orbslam3) JobProgress: {'identifier': 'orbslam3', 'progress': 'cmake'}
+[0.281691] (orbslam3) JobProgress: {'identifier': 'orbslam3', 'progress': 'build'}
+[0.281898] (orbslam3) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shivamss/colcon_ws/build/orbslam3', '--', '-j20', '-l20'], 'cwd': '/home/shivamss/colcon_ws/build/orbslam3', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'shivamss'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}'), ('HOME', '/home/shivamss'), ('OLDPWD', '/home/shivamss'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/shivamss/colcon_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shivamss'), ('NAME', 'SSLaptop'), ('WSL_INTEROP', '/run/WSL/100901_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/shiva/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/shiva/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', '3b9495e3-6c6c-4537-8467-226d50819ccd'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/shivamss/colcon_ws/install/orbslam3:/home/shivamss/colcon_ws/install/lawn_mower_gazebo:/home/shivamss/colcon_ws/install/lawn_mower_description:/home/shivamss/colcon_ws/install/lawn_mower_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/shivamss/colcon_ws/build/orbslam3'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/shivamss/colcon_ws/install/lawn_mower_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/shivamss/colcon_ws/install/orbslam3:/home/shivamss/colcon_ws/install/lawn_mower_gazebo:/home/shivamss/colcon_ws/install/lawn_mower_description:/home/shivamss/colcon_ws/install/lawn_mower_control:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.289598] (-) TimerEvent: {}
+[0.290154] (lawn_mower_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.305083] (lawn_mower_gazebo) CommandEnded: {'returncode': 0}
+[0.322251] (lawn_mower_gazebo) JobProgress: {'identifier': 'lawn_mower_gazebo', 'progress': 'install'}
+[0.330076] (lawn_mower_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shivamss/colcon_ws/build/lawn_mower_gazebo'], 'cwd': '/home/shivamss/colcon_ws/build/lawn_mower_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'shivamss'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}'), ('HOME', '/home/shivamss'), ('OLDPWD', '/home/shivamss'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/shivamss/colcon_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shivamss'), ('NAME', 'SSLaptop'), ('WSL_INTEROP', '/run/WSL/100901_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/shiva/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/shiva/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', '3b9495e3-6c6c-4537-8467-226d50819ccd'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/shivamss/colcon_ws/install/orbslam3:/home/shivamss/colcon_ws/install/lawn_mower_gazebo:/home/shivamss/colcon_ws/install/lawn_mower_description:/home/shivamss/colcon_ws/install/lawn_mower_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/shivamss/colcon_ws/build/lawn_mower_gazebo'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/shivamss/colcon_ws/install/lawn_mower_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/shivamss/colcon_ws/install/orbslam3:/home/shivamss/colcon_ws/install/lawn_mower_gazebo:/home/shivamss/colcon_ws/install/lawn_mower_description:/home/shivamss/colcon_ws/install/lawn_mower_control:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.335120] (lawn_mower_gazebo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.335448] (lawn_mower_gazebo) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.335854] (lawn_mower_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/lawn_mower_gazebo//launch/lawn_mower_launch.py\n'}
+[0.336048] (lawn_mower_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/lawn_mower_gazebo//launch/lawn_mower_launch.py:Zone.Identifier\n'}
+[0.336097] (lawn_mower_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/lawn_mower_gazebo//launch/start_world_launch.py\n'}
+[0.336131] (lawn_mower_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/lawn_mower_gazebo//launch/start_world_launch.py:Zone.Identifier\n'}
+[0.336491] (lawn_mower_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/lawn_mower_gazebo//worlds/baylands.world\n'}
+[0.336806] (lawn_mower_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/lawn_mower_gazebo//worlds/baylands.world:Zone.Identifier\n'}
+[0.336948] (lawn_mower_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/lawn_mower_gazebo//worlds/box_bot_empty.world\n'}
+[0.337011] (lawn_mower_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/lawn_mower_gazebo//worlds/box_bot_empty.world:Zone.Identifier\n'}
+[0.337044] (lawn_mower_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/lawn_mower_gazebo//worlds/house.world\n'}
+[0.337074] (lawn_mower_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/lawn_mower_gazebo//worlds/house.world:Zone.Identifier\n'}
+[0.337172] (lawn_mower_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/lawn_mower_gazebo//worlds/house2.world\n'}
+[0.337294] (lawn_mower_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/lawn_mower_gazebo//worlds/house2.world:Zone.Identifier\n'}
+[0.337516] (lawn_mower_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/ament_index/resource_index/package_run_dependencies/lawn_mower_gazebo\n'}
+[0.337599] (lawn_mower_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/ament_index/resource_index/parent_prefix_path/lawn_mower_gazebo\n'}
+[0.337741] (lawn_mower_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/lawn_mower_gazebo/environment/ament_prefix_path.sh\n'}
+[0.337815] (lawn_mower_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/lawn_mower_gazebo/environment/ament_prefix_path.dsv\n'}
+[0.337878] (lawn_mower_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/lawn_mower_gazebo/environment/path.sh\n'}
+[0.337940] (lawn_mower_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/lawn_mower_gazebo/environment/path.dsv\n'}
+[0.338002] (lawn_mower_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/lawn_mower_gazebo/local_setup.bash\n'}
+[0.338067] (lawn_mower_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/lawn_mower_gazebo/local_setup.sh\n'}
+[0.338264] (lawn_mower_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/lawn_mower_gazebo/local_setup.zsh\n'}
+[0.338437] (lawn_mower_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/lawn_mower_gazebo/local_setup.dsv\n'}
+[0.338477] (lawn_mower_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/lawn_mower_gazebo/package.dsv\n'}
+[0.338509] (orbslam3) StdoutLine: {'line': b'[ 25%] Built target mono\n'}
+[0.346887] (lawn_mower_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/ament_index/resource_index/packages/lawn_mower_gazebo\n'}
+[0.347223] (lawn_mower_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/lawn_mower_gazebo/cmake/lawn_mower_gazeboConfig.cmake\n'}
+[0.347306] (lawn_mower_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/lawn_mower_gazebo/cmake/lawn_mower_gazeboConfig-version.cmake\n'}
+[0.349883] (lawn_mower_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_gazebo/share/lawn_mower_gazebo/package.xml\n'}
+[0.355597] (lawn_mower_gazebo) CommandEnded: {'returncode': 0}
+[0.390187] (-) TimerEvent: {}
+[0.390695] (orbslam3) StdoutLine: {'line': b'[ 50%] Built target stereo-inertial\n'}
+[0.397078] (lawn_mower_gazebo) JobEnded: {'identifier': 'lawn_mower_gazebo', 'rc': 0}
+[0.399296] (lawn_mower_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.404259] (orbslam3) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target stereo\x1b[0m\n'}
+[0.404511] (lawn_mower_description) StdoutLine: {'line': b'-- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)\n'}
+[0.436724] (orbslam3) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/stereo.dir/src/stereo/stereo-slam-node.cpp.o\x1b[0m\n'}
+[0.490391] (-) TimerEvent: {}
+[0.575043] (lawn_mower_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/lawn_mower_control', 'build', '--build-base', '/home/shivamss/colcon_ws/build/lawn_mower_control/build', 'install', '--record', '/home/shivamss/colcon_ws/build/lawn_mower_control/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/shivamss/colcon_ws/src/lawn_mower_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'shivamss', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'WT_PROFILE_ID': '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}', 'HOME': '/home/shivamss', 'OLDPWD': '/home/shivamss', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/shivamss/colcon_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'shivamss', 'NAME': 'SSLaptop', 'WSL_INTEROP': '/run/WSL/100901_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/shiva/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/shiva/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'WT_SESSION': '3b9495e3-6c6c-4537-8467-226d50819ccd', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/shivamss/colcon_ws/install/orbslam3:/home/shivamss/colcon_ws/install/lawn_mower_gazebo:/home/shivamss/colcon_ws/install/lawn_mower_description:/home/shivamss/colcon_ws/install/lawn_mower_control:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/shivamss/colcon_ws/build/lawn_mower_control', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/shivamss/colcon_ws/build/lawn_mower_control/prefix_override:/home/shivamss/colcon_ws/install/lawn_mower_control/lib/python3.10/site-packages:/home/shivamss/colcon_ws/install/lawn_mower_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/shivamss/colcon_ws/install/orbslam3:/home/shivamss/colcon_ws/install/lawn_mower_gazebo:/home/shivamss/colcon_ws/install/lawn_mower_description', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[0.590579] (-) TimerEvent: {}
+[0.691086] (-) TimerEvent: {}
+[0.790155] (lawn_mower_control) StdoutLine: {'line': b'running egg_info\n'}
+[0.790706] (lawn_mower_control) StdoutLine: {'line': b'writing ../../build/lawn_mower_control/lawn_mower_control.egg-info/PKG-INFO\n'}
+[0.790888] (lawn_mower_control) StdoutLine: {'line': b'writing dependency_links to ../../build/lawn_mower_control/lawn_mower_control.egg-info/dependency_links.txt\n'}
+[0.791070] (-) TimerEvent: {}
+[0.791182] (lawn_mower_control) StdoutLine: {'line': b'writing entry points to ../../build/lawn_mower_control/lawn_mower_control.egg-info/entry_points.txt\n'}
+[0.791243] (lawn_mower_control) StdoutLine: {'line': b'writing requirements to ../../build/lawn_mower_control/lawn_mower_control.egg-info/requires.txt\n'}
+[0.791277] (lawn_mower_control) StdoutLine: {'line': b'writing top-level names to ../../build/lawn_mower_control/lawn_mower_control.egg-info/top_level.txt\n'}
+[0.793708] (lawn_mower_control) StdoutLine: {'line': b"reading manifest file '../../build/lawn_mower_control/lawn_mower_control.egg-info/SOURCES.txt'\n"}
+[0.794316] (lawn_mower_control) StdoutLine: {'line': b"writing manifest file '../../build/lawn_mower_control/lawn_mower_control.egg-info/SOURCES.txt'\n"}
+[0.794586] (lawn_mower_control) StdoutLine: {'line': b'running build\n'}
+[0.794707] (lawn_mower_control) StdoutLine: {'line': b'running build_py\n'}
+[0.794904] (lawn_mower_control) StdoutLine: {'line': b'running install\n'}
+[0.796139] (lawn_mower_control) StdoutLine: {'line': b'running install_lib\n'}
+[0.797672] (lawn_mower_control) StdoutLine: {'line': b'running install_data\n'}
+[0.797854] (lawn_mower_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.800184] (lawn_mower_control) StdoutLine: {'line': b"removing '/home/shivamss/colcon_ws/install/lawn_mower_control/lib/python3.10/site-packages/lawn_mower_control-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.801067] (lawn_mower_control) StdoutLine: {'line': b'Copying ../../build/lawn_mower_control/lawn_mower_control.egg-info to /home/shivamss/colcon_ws/install/lawn_mower_control/lib/python3.10/site-packages/lawn_mower_control-0.0.0-py3.10.egg-info\n'}
+[0.801867] (lawn_mower_control) StdoutLine: {'line': b'running install_scripts\n'}
+[0.822358] (lawn_mower_control) StdoutLine: {'line': b'Installing diff_drive script to /home/shivamss/colcon_ws/install/lawn_mower_control/lib/lawn_mower_control\n'}
+[0.822595] (lawn_mower_control) StdoutLine: {'line': b'Installing manual_control script to /home/shivamss/colcon_ws/install/lawn_mower_control/lib/lawn_mower_control\n'}
+[0.822718] (lawn_mower_control) StdoutLine: {'line': b'Installing mowing_planner script to /home/shivamss/colcon_ws/install/lawn_mower_control/lib/lawn_mower_control\n'}
+[0.823252] (lawn_mower_control) StdoutLine: {'line': b"writing list of installed files to '/home/shivamss/colcon_ws/build/lawn_mower_control/install.log'\n"}
+[0.852683] (lawn_mower_control) CommandEnded: {'returncode': 0}
+[0.859048] (lawn_mower_control) JobEnded: {'identifier': 'lawn_mower_control', 'rc': 0}
+[0.891227] (-) TimerEvent: {}
+[0.991609] (-) TimerEvent: {}
+[1.092030] (-) TimerEvent: {}
+[1.192425] (-) TimerEvent: {}
+[1.298365] (-) TimerEvent: {}
+[1.372240] (lawn_mower_description) StdoutLine: {'line': b'-- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)\n'}
+[1.373815] (lawn_mower_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.398525] (-) TimerEvent: {}
+[1.438350] (lawn_mower_description) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.441850] (lawn_mower_description) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.442722] (lawn_mower_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.443394] (lawn_mower_description) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.444373] (lawn_mower_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.445127] (lawn_mower_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.447882] (lawn_mower_description) StdoutLine: {'line': b'-- Generating done\n'}
+[1.448673] (lawn_mower_description) StdoutLine: {'line': b'-- Build files have been written to: /home/shivamss/colcon_ws/build/lawn_mower_description\n'}
+[1.468229] (lawn_mower_description) CommandEnded: {'returncode': 0}
+[1.497791] (lawn_mower_description) JobProgress: {'identifier': 'lawn_mower_description', 'progress': 'install'}
+[1.498192] (lawn_mower_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shivamss/colcon_ws/build/lawn_mower_description'], 'cwd': '/home/shivamss/colcon_ws/build/lawn_mower_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'shivamss'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}'), ('HOME', '/home/shivamss'), ('OLDPWD', '/home/shivamss'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/shivamss/colcon_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shivamss'), ('NAME', 'SSLaptop'), ('WSL_INTEROP', '/run/WSL/100901_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/shiva/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/shiva/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', '3b9495e3-6c6c-4537-8467-226d50819ccd'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/shivamss/colcon_ws/install/orbslam3:/home/shivamss/colcon_ws/install/lawn_mower_gazebo:/home/shivamss/colcon_ws/install/lawn_mower_description:/home/shivamss/colcon_ws/install/lawn_mower_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/shivamss/colcon_ws/build/lawn_mower_description'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/shivamss/colcon_ws/install/lawn_mower_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/shivamss/colcon_ws/install/orbslam3:/home/shivamss/colcon_ws/install/lawn_mower_gazebo:/home/shivamss/colcon_ws/install/lawn_mower_description:/home/shivamss/colcon_ws/install/lawn_mower_control:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[1.498772] (-) TimerEvent: {}
+[1.505098] (lawn_mower_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.505467] (lawn_mower_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.505916] (lawn_mower_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/launch/gazebo_setup.launch.py\n'}
+[1.506033] (lawn_mower_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/launch/gazebo_setup.launch.py:Zone.Identifier\n'}
+[1.506134] (lawn_mower_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/launch/spawn_lawn_mower.py\n'}
+[1.506240] (lawn_mower_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/launch/spawn_lawn_mower.py:Zone.Identifier\n'}
+[1.506316] (lawn_mower_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/launch/spawn_robot_launch_v4.launch.py\n'}
+[1.506408] (lawn_mower_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/launch/spawn_robot_launch_v4.launch.py:Zone.Identifier\n'}
+[1.506602] (lawn_mower_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/robot/caster_wheels.xacro\n'}
+[1.506700] (lawn_mower_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/robot/caster_wheels.xacro:Zone.Identifier\n'}
+[1.506789] (lawn_mower_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/robot/lawn_mower.gazebo\n'}
+[1.506893] (lawn_mower_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/robot/lawn_mower.gazebo:Zone.Identifier\n'}
+[1.506963] (lawn_mower_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/robot/lawn_mower.xacro\n'}
+[1.507059] (lawn_mower_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/robot/lawn_mower.xacro:Zone.Identifier\n'}
+[1.507164] (lawn_mower_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/robot/lawn_mower_body.xacro\n'}
+[1.507233] (lawn_mower_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/robot/lawn_mower_body.xacro:Zone.Identifier\n'}
+[1.507324] (lawn_mower_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/robot/macros.xacro\n'}
+[1.507399] (lawn_mower_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/robot/macros.xacro:Zone.Identifier\n'}
+[1.507496] (lawn_mower_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/robot/materials.xacro\n'}
+[1.507564] (lawn_mower_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/robot/materials.xacro:Zone.Identifier\n'}
+[1.507629] (lawn_mower_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/robot/oakd_lite.xacro\n'}
+[1.507721] (lawn_mower_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/robot/oakd_lite.xacro:Zone.Identifier\n'}
+[1.507787] (lawn_mower_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/robot/oakd_lite2.xacro\n'}
+[1.507851] (lawn_mower_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/robot/oakd_lite2.xacro:Zone.Identifier\n'}
+[1.507946] (lawn_mower_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/robot/properties.xacro\n'}
+[1.508023] (lawn_mower_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/robot/properties.xacro:Zone.Identifier\n'}
+[1.508089] (lawn_mower_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/robot/wheels.xacro\n'}
+[1.508174] (lawn_mower_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/robot/wheels.xacro:Zone.Identifier\n'}
+[1.508263] (lawn_mower_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/config/steering_controller_position.yaml\n'}
+[1.508348] (lawn_mower_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/config/steering_controller_position.yaml:Zone.Identifier\n'}
+[1.508442] (lawn_mower_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/config/steering_controller_velocity.yaml\n'}
+[1.508514] (lawn_mower_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/config/steering_controller_velocity.yaml:Zone.Identifier\n'}
+[1.508679] (lawn_mower_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/meshes/box_car.dae\n'}
+[1.508778] (lawn_mower_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/meshes/box_car.dae:Zone.Identifier\n'}
+[1.508871] (lawn_mower_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/meshes/pixel_car.mtl\n'}
+[1.508941] (lawn_mower_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/meshes/pixel_car.mtl:Zone.Identifier\n'}
+[1.509033] (lawn_mower_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/meshes/pixel_car.obj\n'}
+[1.509103] (lawn_mower_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/meshes/pixel_car.obj:Zone.Identifier\n'}
+[1.509197] (lawn_mower_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/meshes/redcar_tex.png\n'}
+[1.509271] (lawn_mower_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/meshes/redcar_tex.png:Zone.Identifier\n'}
+[1.509378] (lawn_mower_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/meshes/wheel.dae\n'}
+[1.509464] (lawn_mower_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/meshes/wheel.dae:Zone.Identifier\n'}
+[1.509564] (lawn_mower_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/meshes/wheel.png\n'}
+[1.509637] (lawn_mower_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/meshes/wheel.png:Zone.Identifier\n'}
+[1.509734] (lawn_mower_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/lib/lawn_mower_description/spawn_lawn_mower.py\n'}
+[1.509825] (lawn_mower_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/lib/lawn_mower_description/wheel_steer.py\n'}
+[1.509914] (lawn_mower_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/ament_index/resource_index/package_run_dependencies/lawn_mower_description\n'}
+[1.510060] (lawn_mower_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/ament_index/resource_index/parent_prefix_path/lawn_mower_description\n'}
+[1.510158] (lawn_mower_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/environment/ament_prefix_path.sh\n'}
+[1.510251] (lawn_mower_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/environment/ament_prefix_path.dsv\n'}
+[1.510342] (lawn_mower_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/environment/path.sh\n'}
+[1.510461] (lawn_mower_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/environment/path.dsv\n'}
+[1.510770] (lawn_mower_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/local_setup.bash\n'}
+[1.510904] (lawn_mower_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/local_setup.sh\n'}
+[1.511036] (lawn_mower_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/local_setup.zsh\n'}
+[1.511148] (lawn_mower_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/local_setup.dsv\n'}
+[1.511238] (lawn_mower_description) StdoutLine: {'line': b'-- Symlinking: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/package.dsv\n'}
+[1.518241] (lawn_mower_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/ament_index/resource_index/packages/lawn_mower_description\n'}
+[1.518694] (lawn_mower_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/cmake/lawn_mower_descriptionConfig.cmake\n'}
+[1.519414] (lawn_mower_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/cmake/lawn_mower_descriptionConfig-version.cmake\n'}
+[1.519725] (lawn_mower_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/lawn_mower_description/share/lawn_mower_description/package.xml\n'}
+[1.529995] (lawn_mower_description) CommandEnded: {'returncode': 0}
+[1.550720] (lawn_mower_description) JobEnded: {'identifier': 'lawn_mower_description', 'rc': 0}
+[1.598934] (-) TimerEvent: {}
+[1.699284] (-) TimerEvent: {}
+[1.799692] (-) TimerEvent: {}
+[1.900053] (-) TimerEvent: {}
+[2.000582] (-) TimerEvent: {}
+[2.100881] (-) TimerEvent: {}
+[2.201220] (-) TimerEvent: {}
+[2.301649] (-) TimerEvent: {}
+[2.402204] (-) TimerEvent: {}
+[2.502611] (-) TimerEvent: {}
+[2.602989] (-) TimerEvent: {}
+[2.703395] (-) TimerEvent: {}
+[2.803720] (-) TimerEvent: {}
+[2.904065] (-) TimerEvent: {}
+[3.004404] (-) TimerEvent: {}
+[3.105446] (-) TimerEvent: {}
+[3.205978] (-) TimerEvent: {}
+[3.306666] (-) TimerEvent: {}
+[3.407178] (-) TimerEvent: {}
+[3.508717] (-) TimerEvent: {}
+[3.609156] (-) TimerEvent: {}
+[3.709593] (-) TimerEvent: {}
+[3.809931] (-) TimerEvent: {}
+[3.910330] (-) TimerEvent: {}
+[4.010824] (-) TimerEvent: {}
+[4.111166] (-) TimerEvent: {}
+[4.211529] (-) TimerEvent: {}
+[4.311871] (-) TimerEvent: {}
+[4.412223] (-) TimerEvent: {}
+[4.512571] (-) TimerEvent: {}
+[4.613104] (-) TimerEvent: {}
+[4.713541] (-) TimerEvent: {}
+[4.814030] (-) TimerEvent: {}
+[4.914611] (-) TimerEvent: {}
+[5.015001] (-) TimerEvent: {}
+[5.115696] (-) TimerEvent: {}
+[5.216538] (-) TimerEvent: {}
+[5.316957] (-) TimerEvent: {}
+[5.417361] (-) TimerEvent: {}
+[5.424871] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Frame.h:30\x1b[m\x1b[K,\n'}
+[5.425101] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[5.425168] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[5.425217] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[5.425264] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[5.425308] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[5.425358] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[5.425399] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[5.425445] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[5.425485] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/ImuTypes.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ORB_SLAM3::IMU::Preintegrated::printMeasurements() const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.425551] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/ImuTypes.h:204:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<ORB_SLAM3::IMU::Preintegrated::integrable>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.425644] (orbslam3) StderrLine: {'line': b'  204 |         for(int i=0; \x1b[01;35m\x1b[Ki<mvMeasurements.size()\x1b[m\x1b[K; i++){\n'}
+[5.426369] (orbslam3) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K~^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.517475] (-) TimerEvent: {}
+[5.529415] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37\x1b[m\x1b[K,\n'}
+[5.529630] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[5.529738] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[5.529788] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[5.529973] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[5.530033] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[5.530080] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[5.530125] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[5.530163] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[5.530192] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[5.530222] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[5.530250] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:\x1b[m\x1b[K At global scope:\n'}
+[5.530279] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:74:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.530311] (orbslam3) StderrLine: {'line': b'   62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::Flags & \x1b[01;35m\x1b[KAlignedBit\x1b[m\x1b[K ? Aligned : Unaligned >  HessianBlockType;\n'}
+[5.530435] (orbslam3) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.530584] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[5.530635] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[5.530793] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[5.531128] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[5.531233] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[5.531315] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[5.531394] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[5.531485] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[5.531567] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[5.531741] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[5.531910] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[5.532002] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[5.532073] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[5.532142] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[5.532208] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[5.532275] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[5.532340] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.556019] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[5.556374] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[5.556421] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[5.556451] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[5.556479] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[5.556505] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[5.556543] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[5.556582] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[5.556629] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[5.556667] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[5.556707] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[5.556748] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:82:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.556795] (orbslam3) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::Flags & \x1b[01;35m\x1b[KAlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[5.556837] (orbslam3) StderrLine: {'line': b'      |                                                                                  \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.556873] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[5.556902] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[5.556992] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[5.557037] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[5.557067] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[5.557094] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[5.557122] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[5.557156] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[5.557181] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[5.557207] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[5.557232] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[5.557256] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[5.557282] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[5.557308] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[5.557333] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[5.557358] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[5.557385] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.557410] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[5.557437] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[5.557608] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[5.557660] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[5.557692] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[5.557719] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[5.557746] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[5.557773] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[5.557798] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[5.557823] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[5.557848] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[5.557874] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:82:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.557904] (orbslam3) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::Flags & \x1b[01;35m\x1b[KAlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[5.557931] (orbslam3) StderrLine: {'line': b'      |                                                                                  \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.557956] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[5.557981] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[5.558005] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[5.558029] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[5.558053] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[5.558076] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[5.558100] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[5.558123] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[5.558147] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[5.558170] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[5.558213] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[5.558251] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[5.558277] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[5.558331] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[5.558361] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[5.558389] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[5.558416] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.617581] (-) TimerEvent: {}
+[5.626756] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:41\x1b[m\x1b[K,\n'}
+[5.627239] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[5.627469] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[5.627553] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[5.627627] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[5.627696] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[5.627764] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[5.627829] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[5.627952] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[5.628056] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[5.628139] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[5.628238] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/se3quat.h:43:38:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.628348] (orbslam3) StderrLine: {'line': b'   43 |       EIGEN_MAKE_ALIGNED_OPERATOR_NEW\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[5.628476] (orbslam3) StderrLine: {'line': b'      |                                      \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[5.628619] (orbslam3) StderrLine: {'line': b'      |                                      \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[5.717698] (-) TimerEvent: {}
+[5.818062] (-) TimerEvent: {}
+[5.918468] (-) TimerEvent: {}
+[6.018830] (-) TimerEvent: {}
+[6.119182] (-) TimerEvent: {}
+[6.134189] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37\x1b[m\x1b[K,\n'}
+[6.134675] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[6.134766] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[6.134844] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.134889] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.134926] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.134961] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.134998] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.135033] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.135074] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[6.135125] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[6.135177] (orbslam3) StderrLine: {'line': b'/home/shivamss/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseVertex<3, Eigen::Matrix<double, 3, 1> >\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.135223] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_sba.h:40:35:\x1b[m\x1b[K   required from here\n'}
+[6.135262] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.135305] (orbslam3) StderrLine: {'line': b'   62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned >  HessianBlockType;\n'}
+[6.135344] (orbslam3) StderrLine: {'line': b'      |                                                                  \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.135387] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[6.135427] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[6.135462] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[6.135496] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[6.135561] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[6.135606] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[6.135652] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.135692] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.135734] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.135769] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.135805] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.135845] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.135878] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[6.135913] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[6.135952] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[6.135987] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[6.136035] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.173287] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37\x1b[m\x1b[K,\n'}
+[6.173490] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[6.173579] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[6.173651] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.173720] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.173787] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.173853] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.173917] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.173981] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.174044] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[6.174107] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[6.174171] (orbslam3) StderrLine: {'line': b'/home/shivamss/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseVertex<6, g2o::SE3Quat>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.174235] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:59:33:\x1b[m\x1b[K   required from here\n'}
+[6.174298] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.174365] (orbslam3) StderrLine: {'line': b'   62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned >  HessianBlockType;\n'}
+[6.174430] (orbslam3) StderrLine: {'line': b'      |                                                                  \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.174492] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[6.174561] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[6.174624] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[6.174687] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[6.174753] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[6.174815] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[6.174876] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.174937] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.174998] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.175059] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.175120] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.175182] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.175243] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[6.175306] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[6.175368] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[6.175430] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[6.175492] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.214652] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[6.215259] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[6.215316] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[6.215344] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.215373] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.215399] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.215428] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.215464] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.215488] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.215538] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[6.215573] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[6.215621] (orbslam3) StderrLine: {'line': b'/home/shivamss/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<6, g2o::SE3Quat, g2o::VertexSE3Expmap, g2o::VertexSE3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.215687] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:83:24:\x1b[m\x1b[K   required from here\n'}
+[6.215740] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.215794] (orbslam3) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[6.215855] (orbslam3) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.216133] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[6.216284] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[6.216339] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[6.216398] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[6.216455] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[6.216511] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[6.216588] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.216632] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.216670] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.216714] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.216762] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.216801] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.216843] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[6.216880] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[6.216916] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[6.216953] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[6.216989] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.217025] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[6.217067] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[6.217112] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[6.217155] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.217193] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.217233] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.217274] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.217311] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.217348] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.217388] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[6.217431] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[6.217511] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.217582] (orbslam3) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[6.217628] (orbslam3) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.217664] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[6.217702] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[6.217739] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[6.217775] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[6.217810] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[6.217849] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[6.217891] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.217928] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.217971] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.218015] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.218070] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.218117] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.218148] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[6.218176] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[6.218199] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[6.218223] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[6.218247] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.220948] (-) TimerEvent: {}
+[6.305441] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[6.305722] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[6.305772] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[6.305813] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.305855] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.305893] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.305933] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.305972] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.306013] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.306056] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[6.306094] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[6.306134] (orbslam3) StderrLine: {'line': b'/home/shivamss/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.306177] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:114:35:\x1b[m\x1b[K   required from here\n'}
+[6.306223] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.306270] (orbslam3) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[6.306311] (orbslam3) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.306372] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[6.306424] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[6.306451] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[6.306477] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[6.306504] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[6.306546] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[6.306589] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.306638] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.306677] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.306712] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.306749] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.306784] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.306818] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[6.306853] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[6.306890] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[6.306933] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[6.306980] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.320953] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[6.321227] (-) TimerEvent: {}
+[6.321482] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[6.321632] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[6.321691] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.321743] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.321795] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.321845] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.321894] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.321940] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.321979] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[6.322047] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[6.322087] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.322136] (orbslam3) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[6.322179] (orbslam3) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.322219] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[6.322261] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[6.322299] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[6.322342] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[6.322387] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[6.322433] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[6.322470] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.322512] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.322552] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.322590] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.322628] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.322671] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.322706] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[6.322744] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[6.322781] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[6.322820] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[6.322857] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.412887] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[6.413088] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[6.413144] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[6.413209] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.413255] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.413295] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.413357] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.413412] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.413458] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.413500] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[6.413542] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[6.413582] (orbslam3) StderrLine: {'line': b'/home/shivamss/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<3, Eigen::Matrix<double, 3, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.413626] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:146:41:\x1b[m\x1b[K   required from here\n'}
+[6.413667] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.413713] (orbslam3) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[6.413757] (orbslam3) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.413798] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[6.413838] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[6.413878] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[6.413918] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[6.413956] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[6.413995] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[6.414034] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.414073] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.414112] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.414151] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.414196] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.414235] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.414274] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[6.414314] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[6.414354] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[6.414394] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[6.414438] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.414478] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[6.414518] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[6.414559] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[6.414599] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.414638] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.414677] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.414717] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.414755] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.414794] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.414834] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[6.414874] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[6.414913] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.414956] (orbslam3) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[6.414995] (orbslam3) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.415034] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[6.415073] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[6.415110] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[6.415152] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[6.415191] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[6.415229] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[6.415267] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.415305] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.415344] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.415383] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.415420] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.415459] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.415498] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[6.415567] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[6.415609] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[6.415651] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[6.415691] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.425577] (-) TimerEvent: {}
+[6.525961] (-) TimerEvent: {}
+[6.626397] (-) TimerEvent: {}
+[6.681658] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37\x1b[m\x1b[K,\n'}
+[6.681910] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[6.681965] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[6.682009] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.682052] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.682093] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.682134] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.682173] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.682212] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.682260] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[6.682301] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[6.682343] (orbslam3) StderrLine: {'line': b'/home/shivamss/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseVertex<7, g2o::Sim3>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.682389] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:48:35:\x1b[m\x1b[K   required from here\n'}
+[6.682428] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.682471] (orbslam3) StderrLine: {'line': b'   62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned >  HessianBlockType;\n'}
+[6.682511] (orbslam3) StderrLine: {'line': b'      |                                                                  \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.682549] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[6.682587] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[6.682624] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[6.682663] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[6.682703] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[6.682744] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[6.682782] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.682819] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.682857] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.682894] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.682931] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.682968] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.683004] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[6.683041] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[6.683078] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[6.683115] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[6.683153] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.722313] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[6.722451] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[6.722494] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[6.722522] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.722558] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.722585] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.722611] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.722636] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.722661] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.722686] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[6.722722] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[6.722760] (orbslam3) StderrLine: {'line': b'/home/shivamss/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<7, g2o::Sim3, g2o::VertexSim3Expmap, g2o::VertexSim3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.722790] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:99:27:\x1b[m\x1b[K   required from here\n'}
+[6.722818] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.722855] (orbslam3) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[6.722882] (orbslam3) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.722908] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[6.722933] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[6.722958] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[6.722983] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[6.723008] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[6.723033] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[6.723057] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.723082] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.723107] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.723133] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.723157] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.723181] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.723204] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[6.723228] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[6.723251] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[6.723275] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[6.723298] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.723322] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[6.723346] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[6.723370] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[6.723393] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.723416] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.723439] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.723462] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.723515] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.723546] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.723573] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[6.723599] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[6.723626] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.723653] (orbslam3) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[6.723680] (orbslam3) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.723705] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[6.723731] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[6.723763] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[6.723799] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[6.723826] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[6.723851] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[6.723876] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.723901] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.723926] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.723950] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.723973] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.723997] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.724021] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[6.724044] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[6.724078] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[6.724103] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[6.724128] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.727421] (-) TimerEvent: {}
+[6.790401] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[6.790613] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[6.790653] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[6.790682] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.790719] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.790751] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.790777] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.790803] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.790828] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.790853] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[6.790879] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[6.790910] (orbslam3) StderrLine: {'line': b'/home/shivamss/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSim3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.790938] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:130:36:\x1b[m\x1b[K   required from here\n'}
+[6.790964] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.790993] (orbslam3) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[6.791019] (orbslam3) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.791043] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[6.791067] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[6.791091] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[6.791117] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[6.791140] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[6.791164] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[6.791187] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.791210] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.791234] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.791258] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.791283] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.791306] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.791330] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[6.791356] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[6.791380] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[6.791405] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[6.791429] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.815046] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[6.815300] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[6.815337] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[6.815366] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.815394] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.815420] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.815446] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.815471] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.815496] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.815556] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[6.815610] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[6.815650] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.815680] (orbslam3) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[6.815707] (orbslam3) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.815732] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[6.815758] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[6.815783] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[6.815808] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[6.815834] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[6.815858] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[6.815884] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.815908] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.815932] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.815963] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.815988] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.816012] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.816038] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[6.816061] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[6.816085] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[6.816109] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[6.816132] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.827517] (-) TimerEvent: {}
+[6.927945] (-) TimerEvent: {}
+[7.028376] (-) TimerEvent: {}
+[7.128998] (-) TimerEvent: {}
+[7.229688] (-) TimerEvent: {}
+[7.330004] (-) TimerEvent: {}
+[7.430421] (-) TimerEvent: {}
+[7.530725] (-) TimerEvent: {}
+[7.631076] (-) TimerEvent: {}
+[7.731360] (-) TimerEvent: {}
+[7.831876] (-) TimerEvent: {}
+[7.932634] (-) TimerEvent: {}
+[8.033125] (-) TimerEvent: {}
+[8.067183] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Atlas.h:26\x1b[m\x1b[K,\n'}
+[8.067472] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/FrameDrawer.h:25\x1b[m\x1b[K,\n'}
+[8.067513] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[8.067547] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[8.067575] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[8.067601] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[8.067628] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[8.067653] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/CameraModels/Pinhole.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual bool ORB_SLAM3::Pinhole::matchAndtriangulate(const cv::KeyPoint&, const cv::KeyPoint&, ORB_SLAM3::GeometricCamera*, Sophus::SE3f&, Sophus::SE3f&, float, float, Eigen::Vector3f&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.067682] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/CameraModels/Pinhole.h:83:54:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kkp1\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.067710] (orbslam3) StderrLine: {'line': b'   83 |         bool matchAndtriangulate(\x1b[01;35m\x1b[Kconst cv::KeyPoint& kp1\x1b[m\x1b[K, const cv::KeyPoint& kp2, GeometricCamera* pOther,\n'}
+[8.067736] (orbslam3) StderrLine: {'line': b'      |                                  \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[8.067760] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/CameraModels/Pinhole.h:83:79:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kkp2\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.067784] (orbslam3) StderrLine: {'line': b'   83 |         bool matchAndtriangulate(const cv::KeyPoint& kp1, \x1b[01;35m\x1b[Kconst cv::KeyPoint& kp2\x1b[m\x1b[K, GeometricCamera* pOther,\n'}
+[8.067809] (orbslam3) StderrLine: {'line': b'      |                                                           \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[8.067833] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/CameraModels/Pinhole.h:83:101:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KpOther\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.067858] (orbslam3) StderrLine: {'line': b'   83 |         bool matchAndtriangulate(const cv::KeyPoint& kp1, const cv::KeyPoint& kp2, \x1b[01;35m\x1b[KGeometricCamera* pOther\x1b[m\x1b[K,\n'}
+[8.067883] (orbslam3) StderrLine: {'line': b'      |                                                                                    \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[8.067907] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/CameraModels/Pinhole.h:84:48:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KTcw1\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.067960] (orbslam3) StderrLine: {'line': b'   84 |                                  \x1b[01;35m\x1b[KSophus::SE3f& Tcw1\x1b[m\x1b[K, Sophus::SE3f& Tcw2,\n'}
+[8.068012] (orbslam3) StderrLine: {'line': b'      |                                  \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[8.068061] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/CameraModels/Pinhole.h:84:68:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KTcw2\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.068121] (orbslam3) StderrLine: {'line': b'   84 |                                  Sophus::SE3f& Tcw1, \x1b[01;35m\x1b[KSophus::SE3f& Tcw2\x1b[m\x1b[K,\n'}
+[8.068165] (orbslam3) StderrLine: {'line': b'      |                                                      \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[8.068218] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/CameraModels/Pinhole.h:85:46:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KsigmaLevel1\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.068270] (orbslam3) StderrLine: {'line': b'   85 |                                  \x1b[01;35m\x1b[Kconst float sigmaLevel1\x1b[m\x1b[K, const float sigmaLevel2,\n'}
+[8.068319] (orbslam3) StderrLine: {'line': b'      |                                  \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.068368] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/CameraModels/Pinhole.h:85:71:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KsigmaLevel2\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.068469] (orbslam3) StderrLine: {'line': b'   85 |                                  const float sigmaLevel1, \x1b[01;35m\x1b[Kconst float sigmaLevel2\x1b[m\x1b[K,\n'}
+[8.068545] (orbslam3) StderrLine: {'line': b'      |                                                           \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.068650] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/CameraModels/Pinhole.h:86:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kx3Dtriangulated\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.068744] (orbslam3) StderrLine: {'line': b'   86 |                                  \x1b[01;35m\x1b[KEigen::Vector3f& x3Dtriangulated\x1b[m\x1b[K) { return false;}\n'}
+[8.068844] (orbslam3) StderrLine: {'line': b'      |                                  \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.069368] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Atlas.h:27\x1b[m\x1b[K,\n'}
+[8.069545] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/FrameDrawer.h:25\x1b[m\x1b[K,\n'}
+[8.069616] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[8.069661] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[8.069688] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[8.069715] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[8.069741] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[8.069769] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(std::vector<float>)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.069797] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:102:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KORB_SLAM3::KannalaBrandt8::precision\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.069826] (orbslam3) StderrLine: {'line': b'  102 |         const float \x1b[01;35m\x1b[Kprecision\x1b[m\x1b[K;\n'}
+[8.069851] (orbslam3) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[8.069877] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:88:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.069905] (orbslam3) StderrLine: {'line': b'   88 |         std::vector<int> \x1b[01;35m\x1b[KmvLappingArea\x1b[m\x1b[K;\n'}
+[8.069930] (orbslam3) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.069954] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Atlas.h:27\x1b[m\x1b[K,\n'}
+[8.069978] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/FrameDrawer.h:25\x1b[m\x1b[K,\n'}
+[8.070002] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[8.070026] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[8.070061] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[8.070086] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[8.070116] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[8.070141] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:47:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.070168] (orbslam3) StderrLine: {'line': b'   47 |         \x1b[01;35m\x1b[KKannalaBrandt8\x1b[m\x1b[K(const std::vector<float> _vParameters) : GeometricCamera(_vParameters), precision(1e-6), mvLappingArea(2,0) ,tvr(nullptr) {\n'}
+[8.070194] (orbslam3) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.070218] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Atlas.h:27\x1b[m\x1b[K,\n'}
+[8.070242] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/FrameDrawer.h:25\x1b[m\x1b[K,\n'}
+[8.070265] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[8.070289] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[8.070314] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[8.070338] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[8.070363] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivamss/colcon_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[8.070387] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(std::vector<float>, float)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.070413] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:102:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KORB_SLAM3::KannalaBrandt8::precision\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.070440] (orbslam3) StderrLine: {'line': b'  102 |         const float \x1b[01;35m\x1b[Kprecision\x1b[m\x1b[K;\n'}
+[8.070464] (orbslam3) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[8.070487] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:88:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.070511] (orbslam3) StderrLine: {'line': b'   88 |         std::vector<int> \x1b[01;35m\x1b[KmvLappingArea\x1b[m\x1b[K;\n'}
+[8.070535] (orbslam3) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.070558] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:53:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.070583] (orbslam3) StderrLine: {'line': b'   53 |         \x1b[01;35m\x1b[KKannalaBrandt8\x1b[m\x1b[K(const std::vector<float> _vParameters, const float _precision) : GeometricCamera(_vParameters),\n'}
+[8.070608] (orbslam3) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.070730] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(ORB_SLAM3::KannalaBrandt8*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.070845] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:102:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KORB_SLAM3::KannalaBrandt8::precision\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.070882] (orbslam3) StderrLine: {'line': b'  102 |         const float \x1b[01;35m\x1b[Kprecision\x1b[m\x1b[K;\n'}
+[8.070910] (orbslam3) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[8.070938] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:88:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.070983] (orbslam3) StderrLine: {'line': b'   88 |         std::vector<int> \x1b[01;35m\x1b[KmvLappingArea\x1b[m\x1b[K;\n'}
+[8.071019] (orbslam3) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.071054] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivamss/Dev/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:59:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.071094] (orbslam3) StderrLine: {'line': b'   59 |         \x1b[01;35m\x1b[KKannalaBrandt8\x1b[m\x1b[K(KannalaBrandt8* pKannala) : GeometricCamera(pKannala->mvParameters), precision(pKannala->precision), mvLappingArea(2,0) ,tvr(nullptr) {\n'}
+[8.071135] (orbslam3) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.133437] (-) TimerEvent: {}
+[8.234082] (-) TimerEvent: {}
+[8.334412] (-) TimerEvent: {}
+[8.434869] (-) TimerEvent: {}
+[8.535223] (-) TimerEvent: {}
+[8.635578] (-) TimerEvent: {}
+[8.735884] (-) TimerEvent: {}
+[8.836201] (-) TimerEvent: {}
+[8.936533] (-) TimerEvent: {}
+[9.036842] (-) TimerEvent: {}
+[9.137158] (-) TimerEvent: {}
+[9.237598] (-) TimerEvent: {}
+[9.338089] (-) TimerEvent: {}
+[9.438562] (-) TimerEvent: {}
+[9.539036] (-) TimerEvent: {}
+[9.639666] (-) TimerEvent: {}
+[9.740190] (-) TimerEvent: {}
+[9.840540] (-) TimerEvent: {}
+[9.941053] (-) TimerEvent: {}
+[10.041384] (-) TimerEvent: {}
+[10.141786] (-) TimerEvent: {}
+[10.242137] (-) TimerEvent: {}
+[10.342459] (-) TimerEvent: {}
+[10.442870] (-) TimerEvent: {}
+[10.543349] (-) TimerEvent: {}
+[10.643789] (-) TimerEvent: {}
+[10.744232] (-) TimerEvent: {}
+[10.844931] (-) TimerEvent: {}
+[10.945271] (-) TimerEvent: {}
+[11.045670] (-) TimerEvent: {}
+[11.146023] (-) TimerEvent: {}
+[11.246461] (-) TimerEvent: {}
+[11.346974] (-) TimerEvent: {}
+[11.447782] (-) TimerEvent: {}
+[11.548524] (-) TimerEvent: {}
+[11.648853] (-) TimerEvent: {}
+[11.749258] (-) TimerEvent: {}
+[11.849848] (-) TimerEvent: {}
+[11.950363] (-) TimerEvent: {}
+[12.050673] (-) TimerEvent: {}
+[12.151158] (-) TimerEvent: {}
+[12.251452] (-) TimerEvent: {}
+[12.351782] (-) TimerEvent: {}
+[12.452194] (-) TimerEvent: {}
+[12.552955] (-) TimerEvent: {}
+[12.653742] (-) TimerEvent: {}
+[12.754165] (-) TimerEvent: {}
+[12.854652] (-) TimerEvent: {}
+[12.955039] (-) TimerEvent: {}
+[13.055530] (-) TimerEvent: {}
+[13.155890] (-) TimerEvent: {}
+[13.256258] (-) TimerEvent: {}
+[13.356672] (-) TimerEvent: {}
+[13.457074] (-) TimerEvent: {}
+[13.557357] (-) TimerEvent: {}
+[13.657761] (-) TimerEvent: {}
+[13.758191] (-) TimerEvent: {}
+[13.858672] (-) TimerEvent: {}
+[13.959366] (-) TimerEvent: {}
+[14.059921] (-) TimerEvent: {}
+[14.160339] (-) TimerEvent: {}
+[14.260801] (-) TimerEvent: {}
+[14.361216] (-) TimerEvent: {}
+[14.461655] (-) TimerEvent: {}
+[14.562683] (-) TimerEvent: {}
+[14.663394] (-) TimerEvent: {}
+[14.764184] (-) TimerEvent: {}
+[14.864632] (-) TimerEvent: {}
+[14.967602] (-) TimerEvent: {}
+[15.067945] (-) TimerEvent: {}
+[15.168400] (-) TimerEvent: {}
+[15.269100] (-) TimerEvent: {}
+[15.369993] (-) TimerEvent: {}
+[15.470404] (-) TimerEvent: {}
+[15.570784] (-) TimerEvent: {}
+[15.671086] (-) TimerEvent: {}
+[15.771540] (-) TimerEvent: {}
+[15.871999] (-) TimerEvent: {}
+[15.972371] (-) TimerEvent: {}
+[16.072759] (-) TimerEvent: {}
+[16.173363] (-) TimerEvent: {}
+[16.273856] (-) TimerEvent: {}
+[16.374162] (-) TimerEvent: {}
+[16.474556] (-) TimerEvent: {}
+[16.575061] (-) TimerEvent: {}
+[16.675489] (-) TimerEvent: {}
+[16.781598] (-) TimerEvent: {}
+[16.882329] (-) TimerEvent: {}
+[16.982632] (-) TimerEvent: {}
+[17.083181] (-) TimerEvent: {}
+[17.184157] (-) TimerEvent: {}
+[17.284623] (-) TimerEvent: {}
+[17.387013] (-) TimerEvent: {}
+[17.487394] (-) TimerEvent: {}
+[17.587684] (-) TimerEvent: {}
+[17.687997] (-) TimerEvent: {}
+[17.788429] (-) TimerEvent: {}
+[17.888985] (-) TimerEvent: {}
+[17.989298] (-) TimerEvent: {}
+[18.089884] (-) TimerEvent: {}
+[18.190412] (-) TimerEvent: {}
+[18.290737] (-) TimerEvent: {}
+[18.391226] (-) TimerEvent: {}
+[18.492354] (-) TimerEvent: {}
+[18.592661] (-) TimerEvent: {}
+[18.693178] (-) TimerEvent: {}
+[18.794030] (-) TimerEvent: {}
+[18.894456] (-) TimerEvent: {}
+[18.994989] (-) TimerEvent: {}
+[19.095436] (-) TimerEvent: {}
+[19.195801] (-) TimerEvent: {}
+[19.296140] (-) TimerEvent: {}
+[19.396437] (-) TimerEvent: {}
+[19.497285] (-) TimerEvent: {}
+[19.597938] (-) TimerEvent: {}
+[19.698280] (-) TimerEvent: {}
+[19.798732] (-) TimerEvent: {}
+[19.899296] (-) TimerEvent: {}
+[19.999706] (-) TimerEvent: {}
+[20.100115] (-) TimerEvent: {}
+[20.200581] (-) TimerEvent: {}
+[20.300991] (-) TimerEvent: {}
+[20.401999] (-) TimerEvent: {}
+[20.502624] (-) TimerEvent: {}
+[20.602907] (-) TimerEvent: {}
+[20.703223] (-) TimerEvent: {}
+[20.803534] (-) TimerEvent: {}
+[20.903946] (-) TimerEvent: {}
+[21.004244] (-) TimerEvent: {}
+[21.104548] (-) TimerEvent: {}
+[21.205105] (-) TimerEvent: {}
+[21.305469] (-) TimerEvent: {}
+[21.405992] (-) TimerEvent: {}
+[21.506344] (-) TimerEvent: {}
+[21.606659] (-) TimerEvent: {}
+[21.707046] (-) TimerEvent: {}
+[21.807433] (-) TimerEvent: {}
+[21.907757] (-) TimerEvent: {}
+[22.008110] (-) TimerEvent: {}
+[22.108493] (-) TimerEvent: {}
+[22.208957] (-) TimerEvent: {}
+[22.309335] (-) TimerEvent: {}
+[22.409705] (-) TimerEvent: {}
+[22.510045] (-) TimerEvent: {}
+[22.610401] (-) TimerEvent: {}
+[22.710848] (-) TimerEvent: {}
+[22.811557] (-) TimerEvent: {}
+[22.858499] (orbslam3) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable stereo\x1b[0m\n'}
+[22.911818] (-) TimerEvent: {}
+[23.012574] (-) TimerEvent: {}
+[23.113035] (-) TimerEvent: {}
+[23.213442] (-) TimerEvent: {}
+[23.314010] (-) TimerEvent: {}
+[23.379947] (orbslam3) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.4.2\n'}
+[23.380469] (orbslam3) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.4.2\n'}
+[23.414150] (-) TimerEvent: {}
+[23.514539] (-) TimerEvent: {}
+[23.614917] (-) TimerEvent: {}
+[23.715343] (-) TimerEvent: {}
+[23.815776] (-) TimerEvent: {}
+[23.916174] (-) TimerEvent: {}
+[23.978776] (orbslam3) StdoutLine: {'line': b'[ 75%] Built target stereo\n'}
+[24.014371] (orbslam3) StdoutLine: {'line': b'[100%] Built target rgbd\n'}
+[24.016363] (-) TimerEvent: {}
+[24.027359] (orbslam3) CommandEnded: {'returncode': 0}
+[24.066748] (orbslam3) JobProgress: {'identifier': 'orbslam3', 'progress': 'install'}
+[24.069607] (orbslam3) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shivamss/colcon_ws/build/orbslam3'], 'cwd': '/home/shivamss/colcon_ws/build/orbslam3', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'shivamss'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}'), ('HOME', '/home/shivamss'), ('OLDPWD', '/home/shivamss'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/shivamss/colcon_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shivamss'), ('NAME', 'SSLaptop'), ('WSL_INTEROP', '/run/WSL/100901_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/shiva/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/shiva/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', '3b9495e3-6c6c-4537-8467-226d50819ccd'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/shivamss/colcon_ws/install/orbslam3:/home/shivamss/colcon_ws/install/lawn_mower_gazebo:/home/shivamss/colcon_ws/install/lawn_mower_description:/home/shivamss/colcon_ws/install/lawn_mower_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/shivamss/colcon_ws/build/orbslam3'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/shivamss/colcon_ws/install/lawn_mower_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/shivamss/colcon_ws/install/orbslam3:/home/shivamss/colcon_ws/install/lawn_mower_gazebo:/home/shivamss/colcon_ws/install/lawn_mower_description:/home/shivamss/colcon_ws/install/lawn_mower_control:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[24.075270] (orbslam3) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[24.075737] (orbslam3) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[24.076075] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/orbslam3/lib/orbslam3/mono\n'}
+[24.076186] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/orbslam3/lib/orbslam3/rgbd\n'}
+[24.076366] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/orbslam3/lib/orbslam3/stereo\n'}
+[24.076611] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/orbslam3/lib/orbslam3/stereo-inertial\n'}
+[24.076677] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/orbslam3/share/ament_index/resource_index/package_run_dependencies/orbslam3\n'}
+[24.076826] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/orbslam3/share/ament_index/resource_index/parent_prefix_path/orbslam3\n'}
+[24.076937] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/orbslam3/share/orbslam3/environment/ament_prefix_path.sh\n'}
+[24.077075] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/orbslam3/share/orbslam3/environment/ament_prefix_path.dsv\n'}
+[24.077111] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/orbslam3/share/orbslam3/environment/path.sh\n'}
+[24.077184] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/orbslam3/share/orbslam3/environment/path.dsv\n'}
+[24.077273] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/orbslam3/share/orbslam3/local_setup.bash\n'}
+[24.077341] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/orbslam3/share/orbslam3/local_setup.sh\n'}
+[24.077420] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/orbslam3/share/orbslam3/local_setup.zsh\n'}
+[24.077501] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/orbslam3/share/orbslam3/local_setup.dsv\n'}
+[24.077769] (orbslam3) StdoutLine: {'line': b'-- Symlinking: /home/shivamss/colcon_ws/install/orbslam3/share/orbslam3/package.dsv\n'}
+[24.083652] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/orbslam3/share/ament_index/resource_index/packages/orbslam3\n'}
+[24.083845] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/orbslam3/share/orbslam3/cmake/orbslam3Config.cmake\n'}
+[24.083946] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/orbslam3/share/orbslam3/cmake/orbslam3Config-version.cmake\n'}
+[24.084094] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivamss/colcon_ws/install/orbslam3/share/orbslam3/package.xml\n'}
+[24.091343] (orbslam3) CommandEnded: {'returncode': 0}
+[24.116429] (-) TimerEvent: {}
+[24.129163] (orbslam3) JobEnded: {'identifier': 'orbslam3', 'rc': 0}
+[24.132697] (-) EventReactorShutdown: {}

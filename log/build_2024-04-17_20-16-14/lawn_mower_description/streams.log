@@ -1,0 +1,24 @@
+[0.010s] Invoking command in '/home/shivamss/colcon_ws/build/lawn_mower_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shivamss/colcon_ws/src/lawn_mower_descriptions -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shivamss/colcon_ws/install/lawn_mower_description
+[0.075s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.159s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.192s] -- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)
+[3.667s] [31mCMake Error at CMakeLists.txt:22 (find_package):
+[3.667s]   By not providing "Findxacro.cmake" in CMAKE_MODULE_PATH this project has
+[3.667s]   asked CMake to find a package configuration file provided by "xacro", but
+[3.667s]   CMake did not find one.
+[3.667s] 
+[3.667s]   Could not find a package configuration file provided by "xacro" with any of
+[3.667s]   the following names:
+[3.667s] 
+[3.667s]     xacroConfig.cmake
+[3.667s]     xacro-config.cmake
+[3.667s] 
+[3.667s]   Add the installation prefix of "xacro" to CMAKE_PREFIX_PATH or set
+[3.667s]   "xacro_DIR" to a directory containing one of the above files.  If "xacro"
+[3.667s]   provides a separate development package or SDK, be sure it has been
+[3.667s]   installed.
+[3.667s] 
+[3.667s] [0m
+[3.668s] -- Configuring incomplete, errors occurred!
+[3.668s] See also "/home/shivamss/colcon_ws/build/lawn_mower_description/CMakeFiles/CMakeOutput.log".
+[3.671s] Invoked command in '/home/shivamss/colcon_ws/build/lawn_mower_description' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shivamss/colcon_ws/src/lawn_mower_descriptions -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shivamss/colcon_ws/install/lawn_mower_description

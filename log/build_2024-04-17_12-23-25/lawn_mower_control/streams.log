@@ -1,0 +1,12 @@
+[0.317s] Invoking command in '/home/shivamss/colcon_ws/build/lawn_mower_control': PYTHONPATH=/home/shivamss/colcon_ws/build/lawn_mower_control/prefix_override:/home/shivamss/colcon_ws/install/lawn_mower_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/shivamss/colcon_ws/build/lawn_mower_control/build --no-deps symlink_data
+[0.454s] running develop
+[0.457s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.457s]   warnings.warn(
+[0.522s] running egg_info
+[0.522s] writing lawn_mower_control.egg-info/PKG-INFO
+[0.522s] writing dependency_links to lawn_mower_control.egg-info/dependency_links.txt
+[0.522s] writing entry points to lawn_mower_control.egg-info/entry_points.txt
+[0.522s] writing requirements to lawn_mower_control.egg-info/requires.txt
+[0.522s] writing top-level names to lawn_mower_control.egg-info/top_level.txt
+[0.526s] error: package directory 'lawn_mower_control' does not exist
+[0.542s] Invoked command in '/home/shivamss/colcon_ws/build/lawn_mower_control' returned '1': PYTHONPATH=/home/shivamss/colcon_ws/build/lawn_mower_control/prefix_override:/home/shivamss/colcon_ws/install/lawn_mower_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/shivamss/colcon_ws/build/lawn_mower_control/build --no-deps symlink_data

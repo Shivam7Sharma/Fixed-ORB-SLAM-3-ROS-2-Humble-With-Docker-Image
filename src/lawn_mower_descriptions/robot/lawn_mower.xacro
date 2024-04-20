@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<robot name="lawn_mower" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <xacro:include filename="$(find lawn_mower_description)/robot/materials.xacro" />
+  <xacro:include filename="$(find lawn_mower_description)/robot/properties.xacro" />
+  <xacro:include filename="$(find lawn_mower_description)/robot/macros.xacro" />
+  <xacro:include filename="$(find lawn_mower_description)/robot/wheels.xacro" />
+  <xacro:include filename="$(find lawn_mower_description)/robot/caster_wheels.xacro" />  
+  <xacro:include filename="$(find lawn_mower_description)/robot/lawn_mower_body.xacro" />
+  <xacro:include filename="$(find lawn_mower_description)/robot/oakd_lite2.xacro" />
+  <xacro:include filename="$(find lawn_mower_description)/robot/lawn_mower.gazebo" />
+
+  <xacro:lawn_mower_body parent_name="${base_name}"/>
+
+  
+  <xacro:link_wheel name="right_wheel" r="${wheel_radius}" l="${wheel_width}" incr="${wheel_increment}"/>
+  <xacro:joint_wheel name="joint_right_wheel" parent="${base_name}" child="right_wheel" origin_xyz="0 ${base_box_y / 2.0 + wheel_width/2.0} ${-1.0* base_box_z/2.0 + (wheel_radius + wheel_increment)/2}" />
+
+  <xacro:link_wheel name="left_wheel" r="${wheel_radius}" l="${wheel_width}" incr="${wheel_increment}"/>
+  <xacro:joint_wheel name="joint_left_wheel" parent="${base_name}" child="left_wheel" origin_xyz="0 ${-1.0 * base_box_y / 2.0 - wheel_width/2.0} ${-1.0* base_box_z/2.0 + (wheel_radius + wheel_increment)/2}" />
+
+
+  <xacro:caster_wheel parent="chassis" caster_wheel_name="front" origin_xyz="${(base_box_x / 2.0) - wheel_increment} 0 ${-1.0* base_box_z/2.0 + (wheel_radius + wheel_increment)/2}" radius="${wheel_radius}" incr="${wheel_increment}"/>
+  <xacro:caster_wheel parent="chassis" caster_wheel_name="rear" origin_xyz="${-1.0 * (base_box_x / 2.0) + wheel_increment} 0 ${-1.0* base_box_z/2.0 + (wheel_radius + wheel_increment)/2}" radius="${wheel_radius}" incr="${wheel_increment}"/>
+
+  <xacro:oakd_lite parent="chassis" origin_xyz="${(base_box_x / 2.0)} 0 ${base_box_z/2.0 + 0.03}"/>
+
+</robot>

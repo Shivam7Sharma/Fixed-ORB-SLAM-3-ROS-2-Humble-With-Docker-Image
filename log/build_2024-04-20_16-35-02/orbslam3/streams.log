@@ -1,0 +1,31 @@
+[0.128s] Invoking command in '/home/shivamss/colcon_ws/build/orbslam3': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shivamss/colcon_ws/build/orbslam3 -- -j20 -l20
+[0.240s] [35m[1mConsolidate compiler generated dependencies of target rgbd[0m
+[0.246s] [35m[1mConsolidate compiler generated dependencies of target stereo-inertial[0m
+[0.355s] [ 50%] Built target stereo
+[0.355s] [ 50%] Built target rgbd
+[0.355s] [ 75%] Built target stereo-inertial
+[0.355s] [100%] Built target mono
+[0.359s] Invoked command in '/home/shivamss/colcon_ws/build/orbslam3' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shivamss/colcon_ws/build/orbslam3 -- -j20 -l20
+[0.384s] Invoking command in '/home/shivamss/colcon_ws/build/orbslam3': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shivamss/colcon_ws/build/orbslam3
+[0.387s] -- Install configuration: ""
+[0.388s] -- Execute custom install script
+[0.389s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/orbslam3/lib/orbslam3/mono
+[0.389s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/orbslam3/lib/orbslam3/rgbd
+[0.389s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/orbslam3/lib/orbslam3/stereo
+[0.389s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/orbslam3/lib/orbslam3/stereo-inertial
+[0.390s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/orbslam3/share/ament_index/resource_index/package_run_dependencies/orbslam3
+[0.390s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/orbslam3/share/ament_index/resource_index/parent_prefix_path/orbslam3
+[0.391s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/orbslam3/share/orbslam3/environment/ament_prefix_path.sh
+[0.391s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/orbslam3/share/orbslam3/environment/ament_prefix_path.dsv
+[0.392s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/orbslam3/share/orbslam3/environment/path.sh
+[0.392s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/orbslam3/share/orbslam3/environment/path.dsv
+[0.392s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/orbslam3/share/orbslam3/local_setup.bash
+[0.393s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/orbslam3/share/orbslam3/local_setup.sh
+[0.393s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/orbslam3/share/orbslam3/local_setup.zsh
+[0.393s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/orbslam3/share/orbslam3/local_setup.dsv
+[0.393s] -- Symlinking: /home/shivamss/colcon_ws/install/orbslam3/share/orbslam3/package.dsv
+[0.398s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/orbslam3/share/ament_index/resource_index/packages/orbslam3
+[0.398s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/orbslam3/share/orbslam3/cmake/orbslam3Config.cmake
+[0.398s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/orbslam3/share/orbslam3/cmake/orbslam3Config-version.cmake
+[0.398s] -- Up-to-date symlink: /home/shivamss/colcon_ws/install/orbslam3/share/orbslam3/package.xml
+[0.399s] Invoked command in '/home/shivamss/colcon_ws/build/orbslam3' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shivamss/colcon_ws/build/orbslam3

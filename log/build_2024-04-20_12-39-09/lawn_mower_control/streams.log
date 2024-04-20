@@ -1,0 +1,25 @@
+[0.311s] Invoking command in '/home/shivamss/colcon_ws/build/lawn_mower_control': PYTHONPATH=/home/shivamss/colcon_ws/build/lawn_mower_control/prefix_override:/home/shivamss/colcon_ws/install/lawn_mower_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/shivamss/colcon_ws/build/lawn_mower_control/build --no-deps symlink_data
+[0.434s] running develop
+[0.434s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.434s]   warnings.warn(
+[0.493s] running egg_info
+[0.493s] writing lawn_mower_control.egg-info/PKG-INFO
+[0.493s] writing dependency_links to lawn_mower_control.egg-info/dependency_links.txt
+[0.493s] writing entry points to lawn_mower_control.egg-info/entry_points.txt
+[0.493s] writing requirements to lawn_mower_control.egg-info/requires.txt
+[0.493s] writing top-level names to lawn_mower_control.egg-info/top_level.txt
+[0.495s] reading manifest file 'lawn_mower_control.egg-info/SOURCES.txt'
+[0.495s] writing manifest file 'lawn_mower_control.egg-info/SOURCES.txt'
+[0.496s] running build_ext
+[0.496s] Creating /home/shivamss/colcon_ws/install/lawn_mower_control/lib/python3.10/site-packages/lawn-mower-control.egg-link (link to .)
+[0.496s] Installing diff_drive script to /home/shivamss/colcon_ws/install/lawn_mower_control/lib/lawn_mower_control
+[0.496s] Installing manual_control script to /home/shivamss/colcon_ws/install/lawn_mower_control/lib/lawn_mower_control
+[0.496s] Installing mowing_planner script to /home/shivamss/colcon_ws/install/lawn_mower_control/lib/lawn_mower_control
+[0.497s] 
+[0.497s] Installed /home/shivamss/colcon_ws/build/lawn_mower_control
+[0.497s] running symlink_data
+[0.497s] symbolically linking /home/shivamss/colcon_ws/build/lawn_mower_control/resource/lawn_mower_control -> /home/shivamss/colcon_ws/install/lawn_mower_control/share/ament_index/resource_index/packages
+[0.497s] symbolically linking /home/shivamss/colcon_ws/build/lawn_mower_control/package.xml -> /home/shivamss/colcon_ws/install/lawn_mower_control/share/lawn_mower_control
+[0.497s] symbolically linking /home/shivamss/colcon_ws/build/lawn_mower_control/launch/lawn_mower.launch.py -> /home/shivamss/colcon_ws/install/lawn_mower_control/share/lawn_mower_control
+[0.497s] symbolically linking /home/shivamss/colcon_ws/build/lawn_mower_control/launch/base.launch.py -> /home/shivamss/colcon_ws/install/lawn_mower_control/share/lawn_mower_control
+[0.511s] Invoked command in '/home/shivamss/colcon_ws/build/lawn_mower_control' returned '0': PYTHONPATH=/home/shivamss/colcon_ws/build/lawn_mower_control/prefix_override:/home/shivamss/colcon_ws/install/lawn_mower_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/shivamss/colcon_ws/build/lawn_mower_control/build --no-deps symlink_data

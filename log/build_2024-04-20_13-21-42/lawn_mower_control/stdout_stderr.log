@@ -1,0 +1,47 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+Removing /home/shivamss/colcon_ws/install/lawn_mower_control/lib/python3.10/site-packages/lawn-mower-control.egg-link (link to .)
+running egg_info
+writing ../../build/lawn_mower_control/lawn_mower_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/lawn_mower_control/lawn_mower_control.egg-info/dependency_links.txt
+writing entry points to ../../build/lawn_mower_control/lawn_mower_control.egg-info/entry_points.txt
+writing requirements to ../../build/lawn_mower_control/lawn_mower_control.egg-info/requires.txt
+writing top-level names to ../../build/lawn_mower_control/lawn_mower_control.egg-info/top_level.txt
+reading manifest file '../../build/lawn_mower_control/lawn_mower_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/lawn_mower_control/lawn_mower_control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/shivamss/colcon_ws/build/lawn_mower_control/build
+creating /home/shivamss/colcon_ws/build/lawn_mower_control/build/lib
+creating /home/shivamss/colcon_ws/build/lawn_mower_control/build/lib/lawn_mower_control
+copying lawn_mower_control/mowing_planner.py -> /home/shivamss/colcon_ws/build/lawn_mower_control/build/lib/lawn_mower_control
+copying lawn_mower_control/diff_drive.py -> /home/shivamss/colcon_ws/build/lawn_mower_control/build/lib/lawn_mower_control
+copying lawn_mower_control/manual_control.py -> /home/shivamss/colcon_ws/build/lawn_mower_control/build/lib/lawn_mower_control
+copying lawn_mower_control/__init__.py -> /home/shivamss/colcon_ws/build/lawn_mower_control/build/lib/lawn_mower_control
+copying lawn_mower_control/motor_driver.py -> /home/shivamss/colcon_ws/build/lawn_mower_control/build/lib/lawn_mower_control
+running install
+running install_lib
+creating /home/shivamss/colcon_ws/install/lawn_mower_control/lib/python3.10/site-packages/lawn_mower_control
+copying /home/shivamss/colcon_ws/build/lawn_mower_control/build/lib/lawn_mower_control/mowing_planner.py -> /home/shivamss/colcon_ws/install/lawn_mower_control/lib/python3.10/site-packages/lawn_mower_control
+copying /home/shivamss/colcon_ws/build/lawn_mower_control/build/lib/lawn_mower_control/diff_drive.py -> /home/shivamss/colcon_ws/install/lawn_mower_control/lib/python3.10/site-packages/lawn_mower_control
+copying /home/shivamss/colcon_ws/build/lawn_mower_control/build/lib/lawn_mower_control/manual_control.py -> /home/shivamss/colcon_ws/install/lawn_mower_control/lib/python3.10/site-packages/lawn_mower_control
+copying /home/shivamss/colcon_ws/build/lawn_mower_control/build/lib/lawn_mower_control/__init__.py -> /home/shivamss/colcon_ws/install/lawn_mower_control/lib/python3.10/site-packages/lawn_mower_control
+copying /home/shivamss/colcon_ws/build/lawn_mower_control/build/lib/lawn_mower_control/motor_driver.py -> /home/shivamss/colcon_ws/install/lawn_mower_control/lib/python3.10/site-packages/lawn_mower_control
+byte-compiling /home/shivamss/colcon_ws/install/lawn_mower_control/lib/python3.10/site-packages/lawn_mower_control/mowing_planner.py to mowing_planner.cpython-310.pyc
+byte-compiling /home/shivamss/colcon_ws/install/lawn_mower_control/lib/python3.10/site-packages/lawn_mower_control/diff_drive.py to diff_drive.cpython-310.pyc
+byte-compiling /home/shivamss/colcon_ws/install/lawn_mower_control/lib/python3.10/site-packages/lawn_mower_control/manual_control.py to manual_control.cpython-310.pyc
+byte-compiling /home/shivamss/colcon_ws/install/lawn_mower_control/lib/python3.10/site-packages/lawn_mower_control/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/shivamss/colcon_ws/install/lawn_mower_control/lib/python3.10/site-packages/lawn_mower_control/motor_driver.py to motor_driver.cpython-310.pyc
+running install_data
+copying resource/lawn_mower_control -> /home/shivamss/colcon_ws/install/lawn_mower_control/share/ament_index/resource_index/packages
+copying package.xml -> /home/shivamss/colcon_ws/install/lawn_mower_control/share/lawn_mower_control
+copying launch/lawn_mower.launch.py -> /home/shivamss/colcon_ws/install/lawn_mower_control/share/lawn_mower_control
+copying launch/base.launch.py -> /home/shivamss/colcon_ws/install/lawn_mower_control/share/lawn_mower_control
+running install_egg_info
+Copying ../../build/lawn_mower_control/lawn_mower_control.egg-info to /home/shivamss/colcon_ws/install/lawn_mower_control/lib/python3.10/site-packages/lawn_mower_control-0.0.0-py3.10.egg-info
+running install_scripts
+Installing diff_drive script to /home/shivamss/colcon_ws/install/lawn_mower_control/lib/lawn_mower_control
+Installing manual_control script to /home/shivamss/colcon_ws/install/lawn_mower_control/lib/lawn_mower_control
+Installing mowing_planner script to /home/shivamss/colcon_ws/install/lawn_mower_control/lib/lawn_mower_control
+writing list of installed files to '/home/shivamss/colcon_ws/build/lawn_mower_control/install.log'

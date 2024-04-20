@@ -1,0 +1,1 @@
+Invoking command in '/home/shivamss/colcon_ws/build/lawn_mower_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shivamss/colcon_ws/src/lawn_mower_descriptions -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shivamss/colcon_ws/install/lawn_mower_description

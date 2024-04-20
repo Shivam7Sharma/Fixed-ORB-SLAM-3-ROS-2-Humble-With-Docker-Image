@@ -1,0 +1,23 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing lawn_mower_control.egg-info/PKG-INFO
+writing dependency_links to lawn_mower_control.egg-info/dependency_links.txt
+writing entry points to lawn_mower_control.egg-info/entry_points.txt
+writing requirements to lawn_mower_control.egg-info/requires.txt
+writing top-level names to lawn_mower_control.egg-info/top_level.txt
+reading manifest file 'lawn_mower_control.egg-info/SOURCES.txt'
+writing manifest file 'lawn_mower_control.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/shivamss/colcon_ws/install/lawn_mower_control/lib/python3.10/site-packages/lawn-mower-control.egg-link (link to .)
+Installing diff_drive script to /home/shivamss/colcon_ws/install/lawn_mower_control/lib/lawn_mower_control
+Installing manual_control script to /home/shivamss/colcon_ws/install/lawn_mower_control/lib/lawn_mower_control
+Installing mowing_planner script to /home/shivamss/colcon_ws/install/lawn_mower_control/lib/lawn_mower_control
+
+Installed /home/shivamss/colcon_ws/build/lawn_mower_control
+running symlink_data
+symbolically linking /home/shivamss/colcon_ws/build/lawn_mower_control/resource/lawn_mower_control -> /home/shivamss/colcon_ws/install/lawn_mower_control/share/ament_index/resource_index/packages
+symbolically linking /home/shivamss/colcon_ws/build/lawn_mower_control/package.xml -> /home/shivamss/colcon_ws/install/lawn_mower_control/share/lawn_mower_control
+symbolically linking /home/shivamss/colcon_ws/build/lawn_mower_control/launch/lawn_mower.launch.py -> /home/shivamss/colcon_ws/install/lawn_mower_control/share/lawn_mower_control
+symbolically linking /home/shivamss/colcon_ws/build/lawn_mower_control/launch/base.launch.py -> /home/shivamss/colcon_ws/install/lawn_mower_control/share/lawn_mower_control
