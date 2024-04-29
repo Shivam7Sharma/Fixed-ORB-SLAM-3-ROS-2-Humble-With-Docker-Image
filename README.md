@@ -12,6 +12,18 @@ The project requires the following dependencies to be installed:
 - ROS 2 Humble
 - Gazebo
 - Pangolin
+## Docker Image
+```docker pull shivam157/orb_slam3_custom```
+ROS 2 workspace /Fixed-ORB-SLAM-3-ROS-2-Humble
+
+command for stereo:
+``` ros2 run orbslam3 stereo /Fixed-ORB-SLAM-3-ROS-2-Humble/src/orbslam3_ros2/vocabulary/ORBvoc.txt /Fixed-ORB-SLAM-3-ROS-2-Humble/src/orbslam3_ros2/config/stereo/oakcam.yaml false
+```
+
+## Fixes
+The image and the repo might need some fixes for the ros 2 inertial, mono, and rgbd nodes. See link:
+[Issue #16 on ORB_SLAM3_ROS2](https://github.com/zang09/ORB_SLAM3_ROS2/issues/16)
+
 
 ## Installation
 
