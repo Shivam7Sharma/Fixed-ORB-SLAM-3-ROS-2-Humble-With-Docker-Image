@@ -47,3 +47,5 @@ ros2 run orbslam3 stereo /home/shivamss/colcon_ws/src/orbslam3_ros2/vocabulary/O
 ```
 
 Please replace the paths in the commands with the actual paths in your system.
+
+## If you like the repository please star it
